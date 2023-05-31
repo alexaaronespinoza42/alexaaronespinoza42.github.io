@@ -1,0 +1,190 @@
+:root {
+    --primary-color: rgb(46, 196, 182);
+    --secondary-color: #CBF3F0;
+    --accent1-color: #FFFFFF;
+    --accent2-color: #FFBF69;
+
+    --heading-font: 'Poppins bold', sans-serif;
+    --paragraph-font: 'Poppins', sans-serif;
+}
+
+* {
+  margin: px;
+  padding: 0;
+}
+
+
+main {
+    position: relative; 
+}
+
+main img {
+  display: block;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px ;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgba(10, 189, 54, 0.8);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center;
+    padding: 0px 200px;
+  }
+  
+  header a {
+    border: thin #222 solid;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+  }
+  
+.copy p {
+  font-size: 20px;
+  padding: 0 300px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: var(--paragraph-font);
+}
+
+/* Button */
+button {
+    margin: 3rem;
+    background-color: rgb(40, 202, 7);
+    color: #fff;
+    padding: .75rem ;
+    font-size: 1.2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 600px;
+}
+button:hover {
+  background-color: rgb(6, 161, 58);
+  color: white;
+}
+
+.container {
+    display: flex;
+    padding: 0px 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+background-color: rgb(6, 167, 46);
+width: 350px;
+height: 90px;
+margin: 5px;
+margin-top: 50px;
+padding-bottom: 200px;
+}
+.card-image{
+background-color: rgb(255, 255, 255);
+height: 200px;
+width: 300px;
+margin-bottom:15px ;
+background-size:cover;
+margin: 20px;
+}
+.card-1 {
+background-image:url('../images/ishy.jpg');
+}
+.card-2 {
+background-image:url('../images/halloween.jpg');
+}
+.card-3 {
+background-image:url('../images/tiger.jpg');
+}
+.card-4 {
+  background-image:url('../images/wolf.jpg');
+}
+.card h4 {
+    color: white;
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.card p {
+    color: white;
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: -20px;
+}
+.card:hover {
+    background-color: rgb(46, 196, 182);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease-out
+}
+
+
+/* Footer */
+.sociallinks {
+  position: relative;
+  float: right;
+  padding-right: 60px;
+  top: -5px;
+}
+footer p a{
+  padding-top: 50px;
+  margin: 0px 5px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+h2 {
+  margin-left: 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.table {
+  background-color: rgb(5, 139, 72);
+  padding: 50px;
+}
+
+td, th {
+  border: 2px solid #050505;
+  text-align: left;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
