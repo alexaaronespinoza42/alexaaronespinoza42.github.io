@@ -28,7 +28,7 @@ myProfile.placesLived.push(
     },
     {
         place: "Guayaquil Daule, Guayas",
-        lenth: "4 years"
+        length: "4 years"
     }
 );
 /* DOM Manipulation - Output */
@@ -47,20 +47,21 @@ myProfile.favoriteFoods.forEach(food => {
     document.querySelector('#favorite-foods').appendChild(li);
 });
 /* Hobbies List */
-myProfile.hobbies.forEach(hobby =>{
+myProfile.hobbies.forEach(hobby => {
     let li = document.createElement('li');
     li.textContent = hobby;
     document.querySelector('#hobbies').appendChild(li);
 });
 /* Places Lived DataList */
-myProfile.placesLived.forEach(place =>{
+myProfile.placesLived.forEach(placeInfo =>{
     let dt = document.createElement('dt');
-    dt.textContent = placeLived.place;
-    document.querySelector('#place-lived').appendChild(dt);
+    dt.textContent = placeInfo.place;
 
     let dd = document.createElement('dd');
-    dd.textContent = placeLived.length;
-    document.querySelector('#place-lived').appendChild(dd);
-
-});
+    dd.textContent = placeInfo.length;
+    
+    let d1 = document.querySelector('#places-lived');
+    d1.appendChild(dt);
+    d1.appendChild(dd); 
+}); 
 
