@@ -640,3 +640,8 @@ nav {
   display: flex;
   justify-content: center;
 }
+
+.review{
+  color: var(--text-dark);
+}
+
