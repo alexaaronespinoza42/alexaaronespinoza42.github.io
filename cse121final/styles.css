@@ -320,7 +320,7 @@ nav {
   margin-bottom: 1rem;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
 .trainer__content p {
@@ -642,6 +642,27 @@ nav {
 }
 
 .review{
+  color: var(--text-light);
+}
+
+.img{
+  margin-top: -46px;
+  max-width: 36%;
+  float: right;
+  margin-right: 90px;
+}
+
+.img2{
+  margin-top: -60px;
+  max-width: 50%;
+  float: right;
+  margin-right: 90px;
+
+}
+
+#bmiCalculator {
   color: var(--text-dark);
 }
+
+
 
