@@ -20,7 +20,7 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
-// header container
+// header
 ScrollReveal().reveal(".header__image img", {
   ...scrollRevealOption,
 });
@@ -43,7 +43,7 @@ ScrollReveal().reveal(".header__btn", {
   delay: 1500,
 });
 
-// about container
+// about 
 ScrollReveal().reveal(".about__image img", {
   ...scrollRevealOption,
   origin: "left",
@@ -65,7 +65,7 @@ ScrollReveal().reveal(".about__card", {
   interval: 500,
 });
 
-// price container
+// price
 ScrollReveal().reveal(".price__card", {
   ...scrollRevealOption,
   interval: 500,

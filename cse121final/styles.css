@@ -634,3 +634,9 @@ nav {
     padding: 2rem;
   }
 }
+
+.map{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
