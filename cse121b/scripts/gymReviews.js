@@ -1,6 +1,6 @@
 const getReviews = async () => {
     try {
-      const response = await fetch("https://alexaaronespinoza42.github.io/cse121final/resources/reviews.json");
+      const response = await fetch("https://alexaaronespinoza42.github.io/cse121b/resources/reviews.json");
       const data = await response.json();
       
       displayReviews(data);
