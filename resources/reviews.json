@@ -1,0 +1,42 @@
+[
+    {
+      "customerName": "Mike Johnson",
+      "yearsInGym": 3,
+      "gymReview": "Best gym in town! Always clean and well-maintained equipment."
+    },
+    {
+      "customerName": "Emily Davis",
+      "yearsInGym": "2 weeks",
+      "gymReview": "Fantastic classes and supportive community."
+    },
+    {
+      "customerName": "Robert White",
+      "yearsInGym": "1 year and 5 months",
+      "gymReview": "Incredible results! The trainers are top-notch."
+    },
+    {
+      "customerName": "Jessica Black",
+      "yearsInGym": "6 months",
+      "gymReview": "Great variety of workout options. Highly recommend!"
+    },
+    {
+      "customerName": "Chris Brown",
+      "yearsInGym": "1 year",
+      "gymReview": "Friendly staff and convenient hours. Perfect for my schedule."
+    },
+    {
+      "customerName": "Amanda Green",
+      "yearsInGym": "5 years",
+      "gymReview": "Dedicated trainers who genuinely care about your fitness journey."
+    },
+    {
+      "customerName": "Brian Wilson",
+      "yearsInGym": "2 years",
+      "gymReview": "Clean facility with modern equipment. Always a positive experience."
+    },
+    {
+      "customerName": "Melissa Taylor",
+      "yearsInGym": "3 years",
+      "gymReview": "The best decision I made for my health. Love this gym!"
+    }
+  ]
