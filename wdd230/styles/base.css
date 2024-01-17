@@ -1,98 +1,91 @@
-/* styles.css */
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #f0f0f0;
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-}
-
-header {
-    text-align: center;
-    padding: 20px;
-    background-color: #f0f0f0;
-    width: 100%;
+*{
+    margin: 10px;
     box-sizing: border-box;
 }
 
-header img {
-    border-radius: 20%;
-    max-width: 100px;
-    height: auto;
+body{
+    height: 95vh;
+    background: rgb(250, 250, 250);
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
-    position: relative;
-    width: 524px;
-    height: 50px;
-    background: #222;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav a{
-    position: relative;
-    display: inline-block;
-    font-size: 1em;
-    font-weight: 500;
-    color: #f0f0f0;
-    text-decoration: none;
-    padding: 0 23px;
+    background: rgb(49, 47, 47);
+    max-width: 100%; 
+    margin: 10px auto 0;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-  
-h2 {
-    width: 100%;
-    padding: 20px;
+nav li {
+    margin-right: 90px;
 }
 
-.card {
-    display: inline-block; /* Hace que las tarjetas estén en línea */
-    width: calc(50% - 20px); /* Ajusta el ancho según tu preferencia, teniendo en cuenta el margen */
-    margin: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-  }
-  
-  /* Estilos adicionales para mejorar la apariencia (opcional) */
-ul {
-    list-style: none;
-    padding: 0;
-}
-  
-footer {
-    background-color: #333;
+nav a {
+    text-decoration: none;
     color: white;
-    padding: 10px;
+    margin: 0 15px;
+}
+
+header{
+    background: rgb(255, 255, 255);  
+    display: flex;
+    margin: 10px auto;
     text-align: center;
-    width: 100%;
-    box-sizing: border-box;
+}
+
+header img {
+    max-width: 100px; /* img width */
+    height: auto; /* img height */
+    margin-right: 15px; /* margin img right */
+}
+/* h1 */
+#courseName {
+    color: #0e0d0d; 
+    font-size: 44px; 
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+    
+}
+
+/* same format both cards */
+.card1, .card2{
+    background: rgb(238, 238, 238);
+    padding: 20px;
+    flex: 1 1 100px;
+}
+
+.card1 ul{
+    list-style: none; /* nolist*/
+    padding: 0;
+}
+
+
+footer {
+    background: rgb(238, 238, 238);
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #flag {
-    width: 100px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100px;
+    height: auto;
     padding-left: 10px;
-  }
+}
+
