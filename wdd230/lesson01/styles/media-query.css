@@ -10,11 +10,6 @@ header, main, footer {
   background-color: #e60c0c;
 }
 
-/* 
-    border: solid 4px rgb(105, 170, 230);
-    padding: .5rem;
-    background-color:rgb(105, 170, 230);;
-*/
 main {
   display: grid;
   grid-template-columns: 1fr;
