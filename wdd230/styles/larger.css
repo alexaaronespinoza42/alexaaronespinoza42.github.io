@@ -1,0 +1,14 @@
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	/*
+    nav ul li {
+		flex: 1 1 100%
+	}
+    */
+}
+
+@media screen and (max-width: 540px) {
+    
+}

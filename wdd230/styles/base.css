@@ -1,7 +1,4 @@
-*{
-    margin: 10px;
-    box-sizing: border-box;
-}
+
 
 body{
     height: 95vh;
@@ -16,13 +13,12 @@ body{
 
 nav {
     background: rgb(49, 47, 47);
-    max-width: 100%; 
-    margin: 10px auto 0;
+    max-width: 100%;
+    width: 100%; /* Añade esta línea para ocupar todo el ancho */
 }
 
 nav ul {
     list-style: none;
-    display: flex;
     justify-content: center;
 }
 
@@ -36,17 +32,19 @@ nav a {
     margin: 0 15px;
 }
 
-header{
-    background: rgb(255, 255, 255);  
+header {
+    background: rgb(50, 116, 216);
     display: flex;
-    margin: 10px auto;
+    justify-content: center; /* Asegura que los elementos estén apilados verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
     text-align: center;
+    width: 100%; /* Añade esta línea para ocupar todo el ancho */
 }
-
 header img {
     max-width: 100px; /* img width */
     height: auto; /* img height */
-    margin-right: 15px; /* margin img right */
+    margin-bottom: 10px; /* margin img right */
+    margin-right: 20px;
 }
 /* h1 */
 #courseName {
@@ -54,33 +52,46 @@ header img {
     font-size: 44px; 
     text-decoration: underline;
     text-decoration-thickness: auto;
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 .main{
     display: flex;
     flex: 1;
-    
+    flex-wrap: wrap;
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 /* same format both cards */
 .card1, .card2{
-    background: rgb(238, 238, 238);
+    background: rgb(175, 171, 169);
     padding: 20px;
-    flex: 1 1 100px;
+    flex: 1 1 80px;
+    margin: 10px;
+    box-sizing: border-box;
+    font-size: 24px;
 }
 
 .card1 ul{
     list-style: none; /* nolist*/
     padding: 0;
+    text-align: left;
 }
 
 
 footer {
-    background: rgb(238, 238, 238);
-    padding: 1em 0;
+    background: rgb(50, 116, 216);
+    padding: 2em 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+footer .some-element {
+    flex-grow: 1;
 }
 
 #flag {
