@@ -14,7 +14,8 @@ body{
 nav {
     background: rgb(49, 47, 47);
     max-width: 100%;
-    width: 100%; /* Añade esta línea para ocupar todo el ancho */
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 nav ul {
@@ -23,7 +24,8 @@ nav ul {
 }
 
 nav li {
-    margin-right: 90px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 nav a {
@@ -35,10 +37,10 @@ nav a {
 header {
     background: rgb(50, 116, 216);
     display: flex;
-    justify-content: center; /* Asegura que los elementos estén apilados verticalmente */
-    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center;
+    align-items: center; 
     text-align: center;
-    width: 100%; /* Añade esta línea para ocupar todo el ancho */
+    width: 100%;
 }
 header img {
     max-width: 100px; /* img width */
@@ -69,7 +71,7 @@ header img {
     background: rgb(175, 171, 169);
     padding: 20px;
     flex: 1 1 80px;
-    margin: 10px;
+    margin: 12px;
     box-sizing: border-box;
     font-size: 24px;
 }
