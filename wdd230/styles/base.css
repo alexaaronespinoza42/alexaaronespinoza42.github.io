@@ -102,3 +102,12 @@ footer .some-element {
     padding-left: 10px;
 }
 
+.maps{
+    grid-column: 1/4;
+  }
+
+iframe {
+  max-width: 95%;
+  margin: 2.5%;
+  width: 100%;
+}
