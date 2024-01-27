@@ -111,3 +111,26 @@ iframe {
   margin: 2.5%;
   width: 100%;
 }
+
+/* hamburger */
+.hamburger {
+    display: none; /* Inicialmente oculto en todos los dispositivos */
+    background: none;
+    border: none;
+    font-size: 44px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute; /* Cambiar a posición absoluta */
+    top: 10px; /* Ajustar la posición vertical */
+    right: 10px; /* Colocar a la derecha */
+}
+
+/* Estilo para el menú de navegación que se muestra/desvanece */
+nav ul {
+    display: none; /* Ocultar por defecto */
+}
+
+nav ul.open {
+    display: flex; /* Mostrar cuando se hace clic en el botón de hamburguesa */
+    flex-direction: column;
+}
