@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    height: 95vh;
+    background: #ECD9D9;
+    font-family: 'Inter', sans-serif; /* Aplicar la fuente Inter a todo el documento */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background: rgb(49, 47, 47);
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+header {
+    background: #EB6416;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.top-cards, .bottom-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.card {
+    background: rgb(175, 171, 169);
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #333; 
+    border-radius: 10px; 
+}
+.card h4 {
+    text-align: center; 
+}
+
+.card iframe {
+    width: 100%; 
+    max-width: 100%; 
+}
+
+.card img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+footer {
+    font-size: 14px;
+    background: #EB6416;
+    padding: 1em 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div,
+footer p {
+    margin-bottom: 0.5em; 
+}
+
+#flag {
+    max-width: 100px;
+    height: auto;
+}
+
+.hamburger {
+    display: none;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .card {
+        width: 80%; 
+    }
+
+    .top-cards, .bottom-cards {
+        flex-wrap: wrap; 
+    }
+}

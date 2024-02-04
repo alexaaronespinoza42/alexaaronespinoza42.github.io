@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Open Graph meta tags-->
+    <meta property="og:title" content="Alexandre Espinoza - WDD 230 - Guayquil Chamber Site">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.tagsa.aero/h5img/info/gye-480.jpg">
+    <meta property="og:url" content="https://alexaaronespinoza42.github.io/wdd230/chamber">
+    <!--Open Graph meta tags-->
+    <title>Alexandre Espinoza - Guayaquil Chamber Site</title>
+    <meta name="description" content="WDD 230 - Guayaquil Chamber Site.">
+    <meta name="author" content="Alexandre Espinoza">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <header>
+        <h1>Guayaquil Chamber of Commerce</h1>
+        <button id="hamburger" class="hamburger">&#8801;</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="top-cards">
+            <aside class="card large">
+                <h4>Guayaquil City Story</h4>
+                <img src="images/guayaquil.jpeg" alt= "guayaquil-city">
+                <p>Guayaquil was founded on 25 July 1538 by Spanish conqueror Francisco de Orellana in the location of 
+                    a native village and given the name Muy Noble y Muy Leal 
+                    Ciudad de Santiago de Guayaquil ("Most Noble and Most Loyal City of Santiago de Guayaquil").</p>
+            </aside>
+            <aside class="card large">
+                <h4>Location</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255168.25681729603!2d-80.14491763457681!3d-2.1521492268854967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses!2sec!4v1706236239656!5m2!1ses!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <p>Ecuador is a country equidistant between the two western extremes of the American continent.
+                     Guayaquil, its main commercial port, is located within the gulf of the same name, 
+                    being the most important geographical point of the west coast of South America.</p>
+            </aside>
+        </div>
+        <div class="bottom-cards">
+            <aside class="card">
+                <h4>Local Events</h4>
+                <img src="images/event.png" alt="Descripción de la imagen 2">
+                <ul>
+                    <li>Art Exposition - April 1st </li>
+                    <li>Gym Festival - July 25th</li>
+                    <li>'Carnitas Asadas' Event Sep 4th</li>
+                    <p><strong>More information:</strong></p>
+                    <p>Ana Lucia</p>
+                    <p>+493891289 </p>
+                </ul>
+            </aside>
+            <aside class="card">
+                <h4>Community Service</h4>
+                <img src="images/serv.jpg" alt="Descripción de la imagen 2">
+                <ul>
+                    <li>Cleaning the Streets of "La Joya"</li>
+                    <li>Donating Items in Via Daule</li>
+                    <li>Bingo to help the homeless in "Villa club"</li>
+                    <p><strong>More information:</strong></p>
+                    <p>Carlos Andrade</p>
+                    <p>+593834289 </p>
+                </ul>
+            </aside>
+            <aside class="card">
+                <h4>Business Oportunities</h4>
+                <img src="images/busi.jpg"Descripción de la imagen 2">
+                <p>Sometimes there are job fairs in ''Supermaxi'' on via daule and many people take 
+                    advantage of them to do business and find new job opportunities.</p>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <img id="flag" src="images/icon-ecuador.png" alt="">
+        </div>
+            <p>WDD230 Chamber Site Plan</p>
+            <p id="lastModified"></p>
+            <p><span id="currentYear"></span></p>
+        <div>
+            <script src="scripts/getdates.js"></script>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>
