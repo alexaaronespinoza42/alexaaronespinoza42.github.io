@@ -1,15 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+:root{
+    --primary-color: #EB6416;
+    --secondary-color: rgb(175, 171, 169);
+    --background-color: #ECD9D9;
+    --text-color: black;
+}
+
+.dark-theme{
+    --primary-color: #682d8848;
+    --text-color: rgb(255, 255, 255);
+    --secondary-color: #0d5052;
+    --background-color: #4E3636;
+}
+
 body {
     height: 95vh;
-    background: #ECD9D9;
+    background: var(--background-color);
     font-family: 'Inter', sans-serif; /* Aplicar la fuente Inter a todo el documento */
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: var(--text-color);
     font-size: 28px;
     display: flex;
     flex-direction: column;
 }
+
 
 nav {
     background: rgb(49, 47, 47);
@@ -34,9 +49,17 @@ nav a {
     margin: 0 15px;
 }
 
+#icon{
+    width: 30px;
+    cursor: pointer;
+    
+
+}
+
 header {
-    background: #EB6416;
+    background: var(--primary-color);
     display: flex;
+    color: var(--text-color); 
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -57,7 +80,7 @@ header {
 }
 
 .card {
-    background: rgb(175, 171, 169);
+    background: var(--secondary-color);
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
@@ -85,7 +108,7 @@ header {
 
 footer {
     font-size: 14px;
-    background: #EB6416;
+    background: var(--primary-color);
     padding: 1em 0; 
     display: flex;
     flex-direction: column;
