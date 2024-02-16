@@ -29,12 +29,11 @@ body{
 	position: absolute;
 	top: 30px;
 	left: 30px;
-	background: radial-gradient(#fff, #4D5B97);
-	border: 1px solid rgba(0,0,0,.75);
+	background: radial-gradient(#77d16b, #059424);
+	border: 1px solid rgba(3, 102, 36, 0.75);
 	padding: 1.5rem;
 	box-shadow: 0 0 3rem #fff;
 	opacity: 0.75;
-	/* Buenas */
 }
 
 .herolabel p {
@@ -102,13 +101,32 @@ header img {
 }
 
 /* same format both cards */
-.card1, .card2{
+.card1{
     background: rgb(175, 171, 169);
     padding: 20px;
-    flex: 1 1 80px;
-    margin: 12px;
+    margin: 20px;
     box-sizing: border-box;
     font-size: 24px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #333; 
+    border-radius: 10px; 
+}
+
+.card2{
+    background: rgb(175, 171, 169);
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 24px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #333; 
+    border-radius: 10px; 
 }
 
 .card1 ul{
