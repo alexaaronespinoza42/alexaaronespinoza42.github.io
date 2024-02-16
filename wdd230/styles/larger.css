@@ -18,3 +18,9 @@
         display: block;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        margin-bottom: 20px; /* Ajusta este valor según sea necesario */
+    }
+}
