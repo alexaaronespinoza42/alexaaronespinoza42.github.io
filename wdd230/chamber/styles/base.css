@@ -34,6 +34,7 @@ nav {
 }
 
 nav ul {
+    font-size: 20px;
     list-style: none;
     justify-content: center;
 }
@@ -52,18 +53,40 @@ nav a {
 #icon{
     width: 30px;
     cursor: pointer;
-    
+    margin-left: 200px;
+}
 
+#logo {
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 45%;
 }
 
 header {
     background: var(--primary-color);
+    font-size: 18px;
     display: flex;
     color: var(--text-color); 
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 100px; /* Esto alinea el contenedor hacia la derecha */
+    margin-right: 20px; /* Esto agrega un margen entre el texto y los iconos */
+}
+
+.social-icons a {
+    margin-left: 10px; /* Ajusta el margen entre los íconos */
+}
+
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: auto; /* Esto asegura que las imágenes se escalen proporcionalmente */
 }
 
 .main {
@@ -84,7 +107,7 @@ header {
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 17px;
     text-align: justify;
     display: flex;
     flex-direction: column;
