@@ -30,7 +30,7 @@ nav {
     background: rgb(49, 47, 47);
     max-width: 100%;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 nav ul {
@@ -50,10 +50,11 @@ nav a {
     margin: 0 15px;
 }
 
+
+
 #icon{
-    width: 30px;
+    width: 40px;
     cursor: pointer;
-    margin-left: 200px;
 }
 
 #logo {
@@ -76,17 +77,17 @@ header {
 .social-icons {
     display: flex;
     align-items: center;
-    margin-left: 100px; /* Esto alinea el contenedor hacia la derecha */
-    margin-right: 20px; /* Esto agrega un margen entre el texto y los iconos */
+    margin-left: 100px; 
+    margin-right: 20px; 
 }
 
 .social-icons a {
-    margin-left: 10px; /* Ajusta el margen entre los íconos */
+    margin-left: 10px; 
 }
 
 .social-icons img {
-    width: 30px; /* Ajusta el tamaño de las imágenes según sea necesario */
-    height: auto; /* Esto asegura que las imágenes se escalen proporcionalmente */
+    width: 30px; 
+    height: auto; 
 }
 
 .main {
@@ -100,6 +101,25 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 20px; 
+}
+
+#hero-box {
+    position: relative;
+}
+
+#hero-box::after {
+    content: "Large"; 
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    color: rgb(223, 95, 9);
+    font-size: 44px; 
+    z-index: 1; 
+}
+
+
+#hero-image {
+    width: 100%;
 }
 
 .card {
