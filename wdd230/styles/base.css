@@ -137,22 +137,24 @@ header img {
 
 
 footer {
+    font-size: 14px;
     background: rgb(50, 116, 216);
-    padding: 2em 0;
+    padding: 1em 0; 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-
+    font-size: 20px;
 }
 
-footer .some-element {
-    flex-grow: 1;
+footer div,
+footer p {
+    margin-bottom: 0.5em; 
 }
 
 #flag {
     max-width: 100px;
     height: auto;
-    padding-left: 10px;
 }
 
 .maps{
