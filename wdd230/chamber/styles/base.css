@@ -149,6 +149,70 @@ header {
     height: auto; 
 }
 
+/*SIDEBAR DISCOVER.HTML*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-column-gap: 0px; 
+}
+
+.sidebar {
+    margin: 75px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.sidebar-item {
+    background-color: var(--secondary-color);
+    border: 4px solid rgb(121, 84, 84);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 48px;
+}
+
+.sidebar-item p {
+    text-align: justify; 
+    font-size: 15.9px; 
+}
+
+.sidebar-item ul {
+    text-align: left; 
+    font-size: 15.9px; 
+}
+
+.image-sidebar {
+    font-size: 23px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.image-gallery img {
+    display: block;
+    margin-bottom: 18px;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-gallery figure:hover img {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.image-gallery figcaption {
+    font-size: 17.5px; 
+    color: var(--text-color); 
+    text-align: center; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.visit-info {
+    margin-bottom: 20px;
+}
+
+/*SIDEBAR DISCOVER.HTML*/
+
 footer {
     font-size: 14px;
     background: var(--primary-color);

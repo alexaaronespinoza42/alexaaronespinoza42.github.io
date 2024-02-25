@@ -1,6 +1,6 @@
 @media screen and (max-width: 540px) {
     header {
-        padding: 10px; 
+ 
 		font-size: 8px;
     }
 
@@ -24,13 +24,26 @@
         font-size: 18px;
     }
 
+    #icon,
+    #hamburger,
     .social-icons {
         margin-right: 10px;
-    }
-
-    #icon,
-    #hamburger {
         margin-left: 5px;
     }
 
+    /*SIDEBAR DISCOVER*/
+    .container{
+        grid-template-columns: 1fr; 
+    }
+
+    .sidebar,
+    .image-sidebar {
+        padding: 10px;
+        margin: 20px;
+        margin-bottom: -20px;
+    }
+
+    .image-gallery img {
+        margin-bottom: 30px; 
+    }
 }

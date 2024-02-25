@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px) {
     header {
-        padding: 15px; 
+       
 		font-size: 10px;
     }
 
@@ -46,5 +46,22 @@
 
 	.hamburger {
         display: block;
+    }
+
+    /* SIDEBAR DISCOVER */
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar,
+    .image-sidebar {
+        padding: 15px;
+        margin: 25px;
+        margin-bottom: -25px;
+    }
+
+    .image-gallery img {
+        margin-bottom: 55px; 
     }
 }
