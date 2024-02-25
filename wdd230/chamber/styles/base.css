@@ -5,6 +5,7 @@
     --secondary-color: rgb(175, 171, 169);
     --background-color: #ECD9D9;
     --text-color: black;
+    --primary-colorhover: #9e3f08;
 }
 
 .dark-theme{
@@ -12,6 +13,7 @@
     --text-color: rgb(255, 255, 255);
     --secondary-color: #0d5052;
     --background-color: #4E3636;
+    --primary-colorhover: #ecad88;
 }
 
 body {
@@ -196,7 +198,7 @@ header {
 }
 
 .image-gallery figure:hover img {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0px 0px 10px var(--primary-colorhover); 
 }
 
 .image-gallery figcaption {
