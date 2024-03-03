@@ -106,7 +106,7 @@ header img {
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
-    font-size: 24px;
+    font-size: 19.5px;
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -118,15 +118,16 @@ header img {
 .card2{
     background: rgb(175, 171, 169);
     padding: 20px;
-    margin: 20px;
+    margin: 19.5px;
     box-sizing: border-box;
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 2px solid #333; 
     border-radius: 10px; 
+    width: 430px;
 }
 
 .card1 ul{
