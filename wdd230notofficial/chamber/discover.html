@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover - Guayaquil Chamber Site</title>
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/small.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <header>
+        <img src="images/gcityheader.webp" id="logo">
+        <h1>Guayaquil Chamber of Commerce</h1>
+        <div class="social-icons">
+            <a href="#"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+            <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
+        </div>
+        <button id="hamburger" class="hamburger">&#8801;</button>
+        <img src="images/moon.png" id="icon">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <h4>Business in Ecuador</h4>
+                <img src="images/ecuadorbusi.jpg" width="350px">
+                <p>Traditionally, U.S. companies have proven to be successful in Ecuador. Ecuador is a natural 
+                    market for the United States given geographical proximity and our long-standing economic
+                     and cultural history.Product familiarization and brand awareness are not barriers, and the 
+                     quality of U.S.products are highly valued. The fact that Ecuador is a dollarized economy 
+                     is an advantage in business negotiations and facilitates transferring payments to the 
+                     United States.</p>
+            </div>
+            <div class="sidebar-item">
+                <h4>Working in Ecuador</h4>
+                <ul>
+                    <li>Ecuador is known for its relatively low cost of living compared to many Western countries.</li>
+                    <li>It has a pleasant climate, with variations depending on altitude and region, can be appealing to many people.</li>
+                    <li>The cultural diversity in Ecuador can make living and working in Ecuador a unique and enriching experience.</li>
+                    <li>The government has implemented measures to promote economic growth and attract foreign investment.</li>
+                </ul>
+            </div>
+            <div class="sidebar-item">
+                <h4>Culture</h4>
+                <img src="images/cultureecu.jpg" width="350px">
+                <p>Ecuador's distinct culture is as vibrant and beautiful as the hand woven 
+                    tapestries of its local artisans. Stemming from its long and rich history, 
+                    Ecuadorian culture includes a fair mix of indigenous practices along with 
+                    European colonial influence. Almost everyone in Ecuador has a mixed-race 
+                    background, which has resulted in tremendous cultural diversity as well as 
+                    unique customs and traditions across the whole country.</p>
+            </div>
+        </div>
+        
+        <div class="image-sidebar">
+            <div id="visit-info" class="visit-info"></div>
+            <h4>Guayaquil Places</h4>
+            <div class="image-gallery">
+                <figure>
+                    <img src="images/IS.webp" alt="">
+                    <figcaption id="figure1">Isla Santay</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/m2000.webp" alt="">
+                    <figcaption id="figure1">Malecon 2000</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/imax.webp" alt="">
+                    <figcaption id="figure1">Imax</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/pana.webp" alt="">
+                    <figcaption id="figure1">Puerto Santa Ana</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/phis.webp" alt="">
+                    <figcaption id="figure1">Parque Historico</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/cblanco.webp" alt="">
+                    <figcaption id="figure1">Cerro Blanco</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <img id="flag" src="images/icon-ecuador.png" alt="">
+        </div>
+        <p>WDD230 Chamber Site Plan</p>
+        <p id="lastModified"></p>
+        <p><span id="currentYear"></span></p>
+        <div>
+            <script src="scripts/getdates.js"></script>
+        </div>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darktheme.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/visit.js"></script>
+</body>
+</html>

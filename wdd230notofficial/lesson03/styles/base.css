@@ -1,0 +1,26 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+    margin-bottom: 10px; 
+}
+
+main {
+    margin: 10px auto; 
+    max-width: 800px; 
+}
+
+.palette, .typo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}

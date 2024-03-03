@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --primary-color: #EB6416;
+    --secondary-color: rgb(175, 171, 169);
+    --background-color: #ECD9D9;
+    --text-color: black;
+    --primary-colorhover: #9e3f08;
+}
+
+.dark-theme{
+    --primary-color: #682d8848;
+    --text-color: rgb(255, 255, 255);
+    --secondary-color: #0d5052;
+    --background-color: #4E3636;
+    --primary-colorhover: #ecad88;
+}
+
+body {
+    height: 95vh;
+    background: var(--background-color);
+    font-family: 'Inter', sans-serif; /* Aplicar la fuente Inter a todo el documento */
+    text-align: center;
+    color: var(--text-color);
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    background: rgb(49, 47, 47);
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+nav ul {
+    font-size: 20px;
+    list-style: none;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+
+
+#icon{
+    width: 40px;
+    cursor: pointer;
+}
+
+#logo {
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 45%;
+}
+
+header {
+    background: var(--primary-color);
+    font-size: 18px;
+    display: flex;
+    color: var(--text-color); 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 100px; 
+    margin-right: 20px; 
+}
+
+.social-icons a {
+    margin-left: 10px; 
+}
+
+.social-icons img {
+    width: 30px; 
+    height: auto; 
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.top-cards, .bottom-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+#hero-box {
+    position: relative;
+}
+
+#hero-box::after {
+    content: "Large"; 
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    color: rgb(223, 95, 9);
+    font-size: 44px; 
+    z-index: 1; 
+}
+
+
+#hero-image {
+    width: 100%;
+}
+
+.card {
+    background: var(--secondary-color);
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 17px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #333; 
+    border-radius: 10px; 
+}
+.card h4 {
+    text-align: center; 
+}
+
+.card iframe {
+    width: 100%; 
+    max-width: 100%; 
+}
+
+.card img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/*SIDEBAR DISCOVER.HTML*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-column-gap: 0px; 
+}
+
+.sidebar {
+    margin: 75px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.sidebar-item {
+    background-color: var(--secondary-color);
+    border: 4px solid rgb(121, 84, 84);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 48px;
+}
+
+.sidebar-item p {
+    text-align: justify; 
+    font-size: 15.9px; 
+}
+
+.sidebar-item ul {
+    text-align: left; 
+    font-size: 15.9px; 
+}
+
+.image-sidebar {
+    font-size: 23px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.image-gallery img {
+    display: block;
+    margin-bottom: 18px;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-gallery figure:hover img {
+    box-shadow: 0px 0px 10px var(--primary-colorhover); 
+}
+
+.image-gallery figcaption {
+    font-size: 17.5px; 
+    color: var(--text-color); 
+    text-align: center; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.visit-info {
+    margin-bottom: 20px;
+}
+
+/*SIDEBAR DISCOVER.HTML*/
+
+footer {
+    font-size: 14px;
+    background: var(--primary-color);
+    padding: 1em 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div,
+footer p {
+    margin-bottom: 0.5em; 
+}
+
+#flag {
+    max-width: 100px;
+    height: auto;
+}
+
+.hamburger {
+    display: none;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: flex;
+    flex-direction: column;
+}

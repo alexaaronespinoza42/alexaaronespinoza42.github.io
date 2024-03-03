@@ -1,0 +1,49 @@
+@media screen and (max-width: 540px) {
+    header {
+ 
+		font-size: 8px;
+    }
+
+	#hero-box {
+        max-width: 90%; 
+        margin: 0 auto; 
+    }
+    #hero-box::after {
+        content: "Small"; 
+    }
+
+	.card{
+		font-size: 15px;
+	}
+
+    #logo {
+        width: 40px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    #icon,
+    #hamburger,
+    .social-icons {
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    /*SIDEBAR DISCOVER*/
+    .container{
+        grid-template-columns: 1fr; 
+    }
+
+    .sidebar,
+    .image-sidebar {
+        padding: 10px;
+        margin: 20px;
+        margin-bottom: -20px;
+    }
+
+    .image-gallery img {
+        margin-bottom: 30px; 
+    }
+}

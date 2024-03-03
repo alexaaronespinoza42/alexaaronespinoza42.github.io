@@ -1,0 +1,61 @@
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	/*
+    nav ul li {
+		flex: 1 1 100%
+	}
+    */
+}
+
+
+@media only screen and (max-width: 767px) {
+    #courseName{
+        margin-top: 130px;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card1, .card2 {
+        width: calc(100% - 40px);
+        margin: 10px;
+    }
+
+    .hero {
+        margin-bottom: 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    #courseName{
+        margin-top: 10px;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card1, .card2 {
+        width: calc(100% - 40px);
+        margin: 10px;
+    }
+
+    .hero {
+        margin-bottom: 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}

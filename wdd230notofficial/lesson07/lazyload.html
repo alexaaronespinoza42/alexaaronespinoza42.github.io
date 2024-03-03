@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="description of page using keywords">
+    <meta name="author" content="Alexandre Espinoza">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Demonstration</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="https://placekitten.com/400/600" alt="Kitten Placeholder Image" loading="lazy" width="400" height="600">
+        </picture>
+        <picture>
+            <img src="https://placekitten.com/400/650" alt="Kitten Placeholder Image" loading="lazy" width="400" height="650">
+        </picture>
+        <picture>
+            <img src="https://placekitten.com/400/700" alt="Kitten Placeholder Image" loading="lazy" width="400" height="700">
+        </picture>
+        <picture>
+            <img src="https://placekitten.com/400/750" alt="Kitten Placeholder Image" loading="lazy" width="400" height="750">
+        </picture>
+        <picture>
+            <img src="https://placekitten.com/400/800" alt="Kitten Placeholder Image" loading="lazy" width="400" height="800">
+        </picture>
+        <picture>
+            <img src="https://placekitten.com/400/850" alt="Kitten Placeholder Image" loading="lazy" width="400" height="850">
+        </picture>
+    </main>
+    <footer>
+        <div>
+            <img id="flag" src="images/icon-ecuador.png" alt="">
+        </div>
+            <p>&copy; <span id="currentYear"></span> Alexandre Espinoza - Guayaquil</p>
+            <p id="lastModified"></p>
+        <div>
+            <script src="scripts/getdates.js"></script>
+        </div>
+    </footer>
+
+</body>
+</html>
