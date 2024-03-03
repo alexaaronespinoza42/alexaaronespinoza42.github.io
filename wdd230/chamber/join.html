@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join - Guayaquil Chamber Site</title>
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/small.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <header>
+        <img src="images/gcityheader.webp" id="logo">
+        <h1>Guayaquil Chamber of Commerce</h1>
+        <div class="social-icons">
+            <a href="#"><img src="images/linkedin.webp" alt="LinkedIn"></a>
+            <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
+        </div>
+        <button id="hamburger" class="hamburger">&#8801;</button>
+        <img src="images/moon.png" id="icon">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="sidebarjoin">
+            <div class="sidebar-itemjoin">
+                <h4>NP Membership</h4>
+                <p>NP Membership is specifically crafted for non-profit organizations, providing 
+                    them with full access to our community's resources and networking opportunities 
+                    at absolutely no cost.Join us to amplify your impact and connect with like-minded 
+                    organizations dedicated to making a difference.</p>
+                <h4>Free</h4>
+            </div>
+            <div class="sidebar-itemjoin">
+                <h4>Bronze Membership</h4>
+                <p>Bronze Membership serves as an excellent entry point for businesses and organizations 
+                    eager to engage with our community. Gain access to essential resources, networking events,
+                     and support tailored to kickstart your journey towards growth and success.</p>
+                <h4>$127 a month</h4>
+            </div>
+            <div class="sidebar-itemjoin">
+                <h4>Silver Membership</h4>
+                <p>Silver Membership offers an elevated level of engagement for businesses anda unlocks exclusive benefits such as premium networking
+                    events, advanced resources, and increased visibility to propel your organization forward.</p>
+                <h4>$220 a month</h4>
+            </div>
+            <div class="sidebar-itemjoin">
+                <h4>Gold Membership</h4>
+                <p>Gold Membership represents the pinnacle of membership excellence, providing businesses with 
+                    unparalleled support and opportunities for growth. Enjoy VIP access to exclusive events, 
+                    personalized assistance from industry experts, premium advertising options, and maximum 
+                    visibility within our thriving community and beyond.
+                </p>
+                <h4>$300 a month</h4>
+            </div>
+        </div>
+        
+        <div class="sidebarjoin2">
+            <div class="sidebar-itemjoin2">
+                <h1>Membership Application Form</h1>
+                <form action="thankyou.html" method="get">
+                  <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                  </div>
+                  <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                  </div>
+                  <div>
+                    <label for="position">Title/Position:</label>
+                    <input type="text" id="position" name="position" required pattern="[a-zA-Z\s-]{7,}">
+                  </div>
+                  <div>
+                    <label for="email">E-mail Adress:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@example.com">
+                  </div>
+                  <div>
+                    <label for="phone">Mobile Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                  </div>
+                  <div>
+                    <label for="organization">Organization/Business Name:</label>
+                    <input type="text" id="organization" name="organization" required>
+                  </div>
+                  <div>
+                    <label for="membershipLevel">Membership Level:</label>
+                    <select id="membershipLevel" name="membershipLevel" required>
+                      <option value="NP Membership">NP Membership (Free)</option>
+                      <option value="Bronze Membership">Bronze Membership</option>
+                      <option value="Silver Membership">Silver Membership</option>
+                      <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="description">Organization Description:</label>
+                    <textarea id="description" name="description"></textarea>
+                  </div>
+                  <input type="hidden" id="formDateTime" name="formDateTime">
+                  <button type="submit">Submit</button>
+                </form>
+
+                <script>
+                    document.getElementById("formDateTime").value = Date.now();
+                </script>
+            </div>
+            <div class="imgform">
+                <img src="images/form.webp" width="600">
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <img id="flag" src="images/icon-ecuador.png" alt="">
+        </div>
+        <p>WDD230 Chamber Site Plan</p>
+        <p id="lastModified"></p>
+        <p><span id="currentYear"></span></p>
+        <div>
+            <script src="scripts/getdates.js"></script>
+        </div>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darktheme.js"></script>
+</body>
+</html>

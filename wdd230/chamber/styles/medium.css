@@ -64,4 +64,25 @@
     .image-gallery img {
         margin-bottom: 55px; 
     }
+
+    .container {
+        grid-template-columns: 1fr; 
+    }
+    
+    .sidebarjoin2 {
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 80%; 
+    }
+
+    .imgform img {
+        display: block;
+        margin: 50px auto; 
+    }
+
+    .thankyou {
+        max-width: 540px;
+    }
 }
