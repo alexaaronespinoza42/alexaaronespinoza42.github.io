@@ -280,6 +280,7 @@ header {
 .sidebar-itemjoin2 form div {
     margin-bottom: 15px;
     font-size: 22px;
+    text-align: left;
 }
 
 .sidebar-itemjoin2 form label {
@@ -295,7 +296,7 @@ header {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
- 
+    
     box-sizing: border-box;
 }
 
