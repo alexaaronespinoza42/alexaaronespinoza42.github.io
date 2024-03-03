@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Alexandre Espinoza - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.tagsa.aero/h5img/info/gye-480.jpg">
+    <meta property="og:url" content="https://alexaaronespinoza42.github.io/wdd230/index.html">
+    <meta name="description" content="WDD 230 - Web Frontend Development. Alexandre Espinoza's course assignment portal.">
+    <meta name="author" content="Alexandre Espinoza">
+    <title>Alexandre Espinoza - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <header>
+        <img id="profie-photo" img="" src="images/myprofile.jpeg" alt="Profile Image">
+        <h1>Alexandre Espinoza</h1>
+        <button id="hamburger" class="hamburger">&#8801;</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <picture><img src="images/guayaquiltem.webp"></picture>
+        <div class="herolabel">
+            <p>Guayaquil Temple</p>
+        </div>
+    </div>
+
+    <h1 id="courseName">WDD 230: Web Frontend Development</h1>
+    <div class="main">
+        <aside class="card1">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li>Week 01: <a href="lesson01/holygrail.html">Holy Layout</a> | <a href="https://codepen.io/Alexandre-Aar-n-Espinoza-Banchon/pen/VwRbpbz">JS Pen</a></li>
+                <li>Week 02: <a href="lesson01/media-query.html">Media Query</a> | <a href="lesson02/design-principles.html">Design Principles Document</a></li>
+                <li>Week 03: <a href="images/comb.jpeg">Combinator Exercises</a> | <a href="https://codepen.io/Alexandre-Aar-n-Espinoza-Banchon/pen/YzgrrRa">CSS Pseudo Elements</a> | <a href="https://codepen.io/Alexandre-Aar-n-Espinoza-Banchon/pen/JjzOjGr">Hamburger Responsive Menu</a></li></li>
+                <li>Week 04: <a href="https://codepen.io/Alexandre-Aar-n-Espinoza-Banchon/pen/Babrzvq">CSS Pseudo-classes</a></li>
+                <li>Week 05: <a href="lesson05/bom.html">Book Of Mormon BOM</a></li>
+                <li>Week 06: <a href="lesson03/images/landscape.webp">WebP</a> | <a href="lesson06/responsiveimages.html">Responsive Images</a></li>
+                <li>Week 07: <a href="lesson07/lazyload.html">Lazy Load</a> | <a href="lesson07/bom.html">BOM LocalStorage</a></li>
+                <li>Week 08: <a href="lesson08/tablebuild.html">Table</a> | <a href="lesson08/form-start/index.html">Forms</a></li>
+
+            </ul>
+        </aside>
+        <aside class="card2">
+            <h3>Information</h3>
+            <p>Ecuador, Guayaquil</p>
+            <p>58°F - Cloudy</p>
+            <p>Page Visits: 15</p>
+        </aside>
+    </div>
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255168.25681729603!2d-80.14491763457681!3d-2.1521492268854967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses!2sec!4v1706236239656!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        <div>
+            <img id="flag" src="images/icon-ecuador.png" alt="">
+        </div>
+            <p>&copy; <span id="currentYear"></span> Alexandre Espinoza - Guayaquil</p>
+            <p id="lastModified"></p>
+        <div>
+            <script src="scripts/getdates.js"></script>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>
