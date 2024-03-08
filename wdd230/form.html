@@ -34,6 +34,37 @@
         </ul>
     </nav>
 
+    <main>
+        <div id="formmessage"></div>
+        <form action="record.html" method="get" class="wf1">
+            <fieldset>
+                <legend>Account Information</legend>
+                <label>Username* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required></label>
+                <label>Re-enter Password* <input type="password" id="password2" name="password2" pattern="[a-zA-Z0-9]{8,}" required></label>
+                <label>Email* <input type="email" id="email" name="email" title="A valid byui.edu email address." placeholder="someone@byui.edu" pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
+                <label>Page Rating 
+                    <span id="rangevalue">0</span>
+                    <input type="range" id="pagerating" name="pagerating" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </label>
+            </fieldset>
+            <input type="submit" id="submit" title="Create your account." value="Create Account">
+        </form> 
+    </main>
+
     <footer>
         <div>
             <img id="flag" src="images/icon-ecuador.png" alt="">
@@ -46,5 +77,6 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
 </html>
