@@ -52,8 +52,6 @@ nav a {
     margin: 0 15px;
 }
 
-
-
 #icon{
     width: 40px;
     cursor: pointer;
@@ -368,7 +366,7 @@ header {
 
 /*THANKYOU*/
 
-/* directory */
+/*****************Directory***************/
 
 .menud{
     border: 1px solid rgba(0,0,0,0.1);
@@ -385,65 +383,48 @@ header {
 #cards section{
     border: 1px solid rgba(0,0,0,0.1);
     padding: 0.5rem;
-    background-color: #eee;
+    background-color: var(--secondary-color);
 }
 
-/* CSS para el diseño del grid */
-#cards {
+#cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    justify-items: center;
-}
-
-/* CSS para el diseño de la lista */
-/* Estilos para el diseño de la lista */
-.list-directory {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.list-directory section {
-    display: flex;
-    flex-direction: row;
+    grid-gap: 15px;
     align-items: center;
-    gap: 20px;
-    padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: #eee;
+    padding-bottom: 15px;
 }
 
-
-.list-directory section img {
-    display: none;
-}
-
-.list-directory section h3 {
-    font-size: 1rem;
-    font-family: "Quicksand", Arial, Helvetica, sans-serif;
-    flex-grow: 1;
-}
-
-.list-directory section p {
-    flex-grow: 1;
-}
-
-/* Ajustes adicionales para ambos diseños */
-#cards section, .list-directory section {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    background-color: #eee;
+#cards section{
     text-align: center;
-    width: 100%;
 }
 
-#cards img {
-    max-width: 100px;
-    height: auto;
+#cards img{
     border: 1px solid #fff;
     box-shadow: 0 0 10px #333;
 }
 
+#cards section >*{
+    margin: 0.1rem;
+}
+
+#cards img{
+    height: 75px;
+    max-width: 100%;
+}
+
+.list-directory section >*{
+    margin: 0 1rem;
+}
+
+
+
+.list-directory section img{
+    display: none;
+}
+
+.list-directory section:nth-child(even){
+    background-color: rgb(197, 197, 197);
+    
+}
 
 
 footer {
@@ -480,3 +461,4 @@ nav ul.open {
     display: flex;
     flex-direction: column;
 }
+
