@@ -1,0 +1,68 @@
+{
+    "companies": [
+      {
+        "name": "Ecuadeli",
+        "address": "Av. Francisco de Orellana, Edif. World Trade Center, Piso 11, Oficina 1101, Guayaquil",
+        "phone": "+593 4 259 8810",
+        "website": "https://www.ecuadeli.com.ec/",
+        "image": "ecuadeli.png",
+        "membership_level": "Gold",
+        "other_information": "Ecuadeli is a leading Ecuadorian company dedicated to the exportation of high-quality products such as shrimp, tuna, and other seafood products."
+      },
+      {
+        "name": "Natura Futura",
+        "address": "Calle Julio Zaldumbide N32-361 y Av. Occidental, Quito",
+        "phone": "+593 99 276 4332",
+        "website": "https://www.naturafutura.ec/",
+        "image": "naturafutura.png",
+        "membership_level": "Silver",
+        "other_information": "Natura Futura is an Ecuadorian company committed to sustainable agriculture practices, offering organic and fair-trade products such as cocoa, coffee, and honey."
+      },
+      {
+        "name": "Lio Internacional",
+        "address": "Calle Isla Genovesa E9-109 y Av. Interoceánica, Quito",
+        "phone": "+593 2 380 5555",
+        "website": "https://www.liointernacional.com/",
+        "image": "lio.png",
+        "membership_level": "Bronze",
+        "other_information": "Lio Internacional is an Ecuadorian logistics company specializing in international freight forwarding and customs brokerage services."
+      },
+      {
+        "name": "Frutexport",
+        "address": "Av. José María Velasco Ibarra, Km 21, Guayaquil",
+        "phone": "+593 4 231 0200",
+        "website": "https://www.frutexport.com.ec/",
+        "image": "frutexport.png",
+        "membership_level": "Gold",
+        "other_information": "Frutexport is a leading Ecuadorian exporter of fresh fruits, including bananas, pineapples, and mangoes, to international markets."
+      },
+      {
+        "name": "Cacao del Ecuador",
+        "address": "Calle París E11-205 y Av. 10 de Agosto, Quito",
+        "phone": "+593 2 250 5230",
+        "website": "https://www.cacaodelecuador.com/",
+        "image": "cacaodelecuador.png",
+        "membership_level": "Silver",
+        "other_information": "Cacao del Ecuador is dedicated to the production and exportation of premium Ecuadorian cocoa beans, known for their exceptional flavor and aroma."
+      },
+      {
+        "name": "Industrias Ales",
+        "address": "Calle Venezuela 212 y Av. Manabí, Guayaquil",
+        "phone": "+593 4 230 6111",
+        "website": "https://www.industriasales.com/",
+        "image": "ales.png",
+        "membership_level": "Bronze",
+        "other_information": "Industrias Ales is a leading Ecuadorian manufacturer of plastic products, serving diverse industries including agriculture, construction, and packaging."
+      },
+      {
+        "name": "Incauca",
+        "address": "Av. Amazonas N24-255 y Eloy Alfaro, Edificio Torre 2000, Piso 5, Oficina 501, Quito",
+        "phone": "+593 2 382 5200",
+        "website": "https://www.incauca.com.ec/",
+        "image": "incauca.png",
+        "membership_level": "Gold",
+        "other_information": "Incauca is an Ecuadorian company specializing in the production and exportation of high-quality sugar products, including raw sugar, refined sugar, and specialty sugars."
+      }
+    ]
+  }
+  
