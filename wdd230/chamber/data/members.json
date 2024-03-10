@@ -1,67 +1,67 @@
 {
     "companies": [
-      {
-        "name": "Ecuadeli",
-        "address": "Av. Francisco de Orellana, Edif. World Trade Center, Piso 11, Oficina 1101, Guayaquil",
-        "phone": "+593 4 259 8810",
-        "website": "https://www.ecuadeli.com.ec/",
-        "image": "https://www.ecuadeli.com.ec/uploads/logo/5bde2ffdc76f5.png",
-        "membership_level": "Gold",
-        "other_information": "Ecuadeli is a leading Ecuadorian company dedicated to the exportation of high-quality products such as shrimp, tuna, and other seafood products."
-      },
-      {
-        "name": "Natura Futura",
-        "address": "Calle Julio Zaldumbide N32-361 y Av. Occidental, Quito",
-        "phone": "+593 99 276 4332",
-        "website": "https://www.naturafutura.ec/",
-        "image": "https://www.naturafutura.ec/wp-content/uploads/2019/05/natura-futura-logo-2x.png",
-        "membership_level": "Silver",
-        "other_information": "Natura Futura is an Ecuadorian company committed to sustainable agriculture practices, offering organic and fair-trade products such as cocoa, coffee, and honey."
-      },
-      {
-        "name": "Lio Internacional",
-        "address": "Calle Isla Genovesa E9-109 y Av. Interoceánica, Quito",
-        "phone": "+593 2 380 5555",
-        "website": "https://www.liointernacional.com/",
-        "image": "https://www.liointernacional.com/wp-content/uploads/2019/02/logo_lio_nuevo.png",
-        "membership_level": "Bronze",
-        "other_information": "Lio Internacional is an Ecuadorian logistics company specializing in international freight forwarding and customs brokerage services."
-      },
-      {
-        "name": "Frutexport",
-        "address": "Av. José María Velasco Ibarra, Km 21, Guayaquil",
-        "phone": "+593 4 231 0200",
-        "website": "https://www.frutexport.com.ec/",
-        "image": "https://www.frutexport.com.ec/images/frutexport_logo_color.png",
-        "membership_level": "Gold",
-        "other_information": "Frutexport is a leading Ecuadorian exporter of fresh fruits, including bananas, pineapples, and mangoes, to international markets."
-      },
-      {
-        "name": "Cacao del Ecuador",
-        "address": "Calle París E11-205 y Av. 10 de Agosto, Quito",
-        "phone": "+593 2 250 5230",
-        "website": "https://www.cacaodelecuador.com/",
-        "image": "https://www.cacaodelecuador.com/images/logo.png",
-        "membership_level": "Silver",
-        "other_information": "Cacao del Ecuador is dedicated to the production and exportation of premium Ecuadorian cocoa beans, known for their exceptional flavor and aroma."
-      },
-      {
-        "name": "Industrias Ales",
-        "address": "Calle Venezuela 212 y Av. Manabí, Guayaquil",
-        "phone": "+593 4 230 6111",
-        "website": "https://www.industriasales.com/",
-        "image": "https://www.industriasales.com/sites/all/themes/industriasales/logo.png",
-        "membership_level": "Bronze",
-        "other_information": "Industrias Ales is a leading Ecuadorian manufacturer of plastic products, serving diverse industries including agriculture, construction, and packaging."
-      },
-      {
-        "name": "Incauca",
-        "address": "Av. Amazonas N24-255 y Eloy Alfaro, Edificio Torre 2000, Piso 5, Oficina 501, Quito",
-        "phone": "+593 2 382 5200",
-        "website": "https://www.incauca.com.ec/",
-        "image": "https://www.incauca.com.ec/sites/default/files/logo-01.png",
-        "membership_level": "Gold",
-        "other_information": "Incauca is an Ecuadorian company specializing in the production and exportation of high-quality sugar products, including raw sugar, refined sugar, and specialty sugars."
-      }
+        {
+            "name": "Grupo Nobis",
+            "address": "Av. Leopoldo Carrera Calvo 1245, Guayaquil",
+            "phone": "+593 4 265 1000",
+            "website": "https://www.gruponobis.com/",
+            "image": "https://pbs.twimg.com/profile_images/1615809630638116878/fy4dxNiX_200x200.jpg",
+            "membership_level": "Gold",
+            "other_information": "Grupo Nobis is an Ecuadorian conglomerate with a wide range of companies in sectors such as construction, engineering, agriculture, and more."
+        },
+        {
+            "name": "Holcim Ecuador",
+            "address": "Km 8.5 Vía a Daule, Guayaquil",
+            "phone": "+593 4 370 7000",
+            "website": "https://www.holcim.com.ec/",
+            "image": "https://holcim.hiringroom.com/data/accounts/holcim/microsite/32302c7973230427350227632774a52e.png",
+            "membership_level": "Silver",
+            "other_information": "Holcim Ecuador is a leading company in the production and distribution of cement, concrete, and aggregates in the country."
+        },
+        {
+            "name": "Inaesin",
+            "address": "Av. Francisco de Orellana, Edificio Blue Building, Guayaquil",
+            "phone": "+593 4 220 3683",
+            "website": "https://www.inaesin.com/",
+            "image": "https://pbs.twimg.com/profile_images/1235975034734292994/vEK4Kjth_400x400.jpg",
+            "membership_level": "Bronze",
+            "other_information": "Inaesin is an Ecuadorian company specializing in engineering and inspection services for construction and infrastructure projects."
+        },
+        {
+            "name": "Tame EP",
+            "address": "José Joaquín de Olmedo International Airport, Guayaquil",
+            "phone": "+593 4 380 2100",
+            "website": "https://www.tame.com.ec/",
+            "image": "https://i.ytimg.com/vi/HbPiiPqWAYY/maxresdefault.jpg",
+            "membership_level": "Gold",
+            "other_information": "Tame EP is the state-owned airline of Ecuador, operating domestic and international flights from its bases in Quito and Guayaquil."
+        },
+        {
+            "name": "Cervecería Nacional",
+            "address": "Av. Juan Tanca Marengo, Guayaquil",
+            "phone": "+593 4 373 8500",
+            "website": "https://www.cnc.com.ec/",
+            "image": "https://mccomunicaciones.com.ec/wp-content/uploads/2015/12/B-asset-4.jpeg",
+            "membership_level": "Silver",
+            "other_information": "Cervecería Nacional is the leading beer producer in Ecuador, with a wide variety of popular brands in the market."
+        },
+        {
+            "name": "Automotores y Anexos",
+            "address": "Av. Carlos Julio Arosemena, Guayaquil",
+            "phone": "+593 4 210 9000",
+            "website": "https://www.aya.ec/",
+            "image": "https://a.storyblok.com/f/166586/595x177/8f0dc42747/logo-automotores-y-anexos-seminuevos.png",
+            "membership_level": "Bronze",
+            "other_information": "Automotores y Anexos is an Ecuadorian company dedicated to the import and distribution of vehicles and automotive parts."
+        },
+        {
+            "name": "Fybeca",
+            "address": "Av. Juan Tanca Marengo, Guayaquil",
+            "phone": "+593 4 372 5500",
+            "website": "https://www.fybeca.com/",
+            "image": "https://scalashopping.com/wp-content/uploads/2018/08/logo-Fybeca-01-1200x480.png",
+            "membership_level": "Gold",
+            "other_information": "Fybeca is the leading pharmacy chain in Ecuador, offering a wide range of pharmaceutical and health products."
+        }
     ]
 }
