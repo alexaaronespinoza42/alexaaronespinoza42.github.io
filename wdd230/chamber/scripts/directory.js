@@ -28,7 +28,7 @@ const displayCompanies = (companies) =>{
         logo.setAttribute("height", "auto");
 
         cName.textContent = `${company.name}`;
-        cDescription.textContent = `${company.other_information}`;
+        cDescription.textContent = `${company.description}`;
         address.textContent = `${company.address}`;
         cPhone.textContent = `Phone: ${company.phone}`;
         membership.textContent = `${company.membership_level} Membership`;

@@ -370,77 +370,80 @@ header {
 
 /* directory */
 
-.menu {
-    border: 1px solid rgba(0, 0, 0, 0.1);
+.menud{
+    border: 1px solid rgba(0,0,0,0.1);
     padding: 0.5rem;
     background-color: rgb(59, 59, 59);
     text-align: center;
 }
 
-.menu button {
+.menud button{
     padding: 1rem;
     font-weight: 700;
 }
 
+#cards section{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 0.5rem;
+    background-color: #eee;
+}
+
+/* CSS para el diseño del grid */
 #cards {
-    padding-top: 15px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 20px;
-    padding-bottom: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
 }
 
-#cards section {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    background-color: var(--secondary-color);
-    text-align: center;
-}
-
-#cards img {
-    border: 1px solid #fff;
-    box-shadow: 0 0 10px #333;
-    max-width: 250px;
-    height: 150px; 
-}
-
-#cards section>* {
-    margin: 0.5rem; 
-}
-/* directory */
-
-/* LIST */
+/* CSS para el diseño de la lista */
+/* Estilos para el diseño de la lista */
 .list-directory {
-    display: block; /* Mostrar la vista de lista por defecto */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-
 .list-directory section {
     display: flex;
-    flex-direction: column; /* Hacer que las tarjetas se vean una debajo de la otra */
-    gap: 10px; /* Espacio entre tarjetas */
-    padding: 20px; /* Aumentar el espacio interno de la tarjeta */
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #eee;
-    margin-bottom: 15px; /* Espacio entre tarjetas */
 }
 
-.list-directory section>* {
-    margin: 5px 0; /* Ajustar los márgenes internos */
-}
 
 .list-directory section img {
-    display: none; /* Ocultar la imagen en la vista de lista */
+    display: none;
 }
 
 .list-directory section h3 {
-    font-size: 1.2rem; /* Ajustar el tamaño de la fuente del título */
+    font-size: 1rem;
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    flex-grow: 1;
 }
 
 .list-directory section p {
-    font-size: 1rem; /* Ajustar el tamaño de la fuente del texto */
+    flex-grow: 1;
 }
-/* LIST */
+
+/* Ajustes adicionales para ambos diseños */
+#cards section, .list-directory section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #eee;
+    text-align: center;
+    width: 100%;
+}
+
+#cards img {
+    max-width: 100px;
+    height: auto;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+}
+
 
 
 footer {
