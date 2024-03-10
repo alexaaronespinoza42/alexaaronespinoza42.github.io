@@ -6,7 +6,8 @@
     .top-cards, .bottom-cards {
         flex-wrap: wrap; 
     }
-}   
+
+}
 
 @media screen and (max-width: 768px) {
     header {
@@ -85,39 +86,32 @@
     .thankyou {
         max-width: 540px;
     }
+}
+
+@media screen and (max-width: 740px) {
 
     .grid-directory{
-        padding-left: 40px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        max-width: 90%;
     }
     
     .list-directory section{
         display: grid;
         grid-column: 1/2;
         grid-template-columns: repeat(7, 1fr);
-        max-width: 91%;
-        font-size: 15px;
+        gap: 10px;
+        padding: 0.25rem;
+        width: auto;
+        margin-left: 2rem;
         
     }
-}
-
-@media screen and (max-width: 740px) {
     
-    .grid-directory{
-        padding-left: 40px;
+    .list section{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 90%;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 0.25rem;
+        width: auto;
     }
     
-    .list-directory section{
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        max-width: 90%;
-        font-size: 13px;
-        
-    }
-
 }

@@ -3,7 +3,7 @@
         {
             "name": "Grupo Nobis",
             "description": "Construction Company",
-            "address": "Av. Leopoldo Carrera Calvo 1245, Guayaquil",
+            "address": "Av. Leopoldo Carrera Calvo, Guayaquil",
             "phone": "+593 4 265 1000",
             "website": "https://www.gruponobis.com/",
             "image": "https://pbs.twimg.com/profile_images/1615809630638116878/fy4dxNiX_200x200.jpg",
@@ -21,7 +21,7 @@
         {
             "name": "Inaesin",
             "description": "Construction Company",
-            "address": "Av. Francisco de Orellana, Edificio Blue Building, Guayaquil",
+            "address": "Av. Francisco de Orellana, Guayaquil",
             "phone": "+593 4 220 3683",
             "website": "https://www.inaesin.com/",
             "image": "https://pbs.twimg.com/profile_images/1235975034734292994/vEK4Kjth_400x400.jpg",
@@ -30,7 +30,7 @@
         {
             "name": "Tame EP",
             "description": "Flights Company",
-            "address": "José Joaquín de Olmedo International Airport, Guayaquil",
+            "address": "José Joaquín de Olmedo International Airport",
             "phone": "+593 4 380 2100",
             "website": "https://www.tame.com.ec/",
             "image": "https://i.ytimg.com/vi/HbPiiPqWAYY/maxresdefault.jpg",

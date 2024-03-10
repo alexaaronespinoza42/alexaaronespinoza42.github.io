@@ -76,4 +76,18 @@
     .thankyou p {
         font-size: 16px;
     }
+    
+    .grid-directory{
+        padding-right: 40px;
+        display: grid;
+        grid-template-columns: 1fr; 
+        max-width: 85%;
+    }
+    
+    .list-directory section{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 85%;
+    }
+    
 }

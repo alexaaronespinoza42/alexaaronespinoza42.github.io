@@ -366,18 +366,24 @@ header {
 
 /*THANKYOU*/
 
-/*****************Directory***************/
+/* directory */
+
+.directorybody{
+    box-sizing: border-box;
+}
 
 .menud{
-    border: 1px solid rgba(0,0,0,0.1);
-    padding: 0.5rem;
-    background-color: rgb(59, 59, 59);
+    padding: 1rem;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0.1px;
 }
 
 .menud button{
-    padding: 1rem;
-    font-weight: 700;
+    padding: 0.8rem;
+    font-weight: 1000;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 #cards section{
@@ -387,11 +393,22 @@ header {
 }
 
 #cards{
+    padding-top: 40px;
     display: grid;
-    grid-gap: 15px;
+    grid-gap: 25px;
     align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
+    font-size: 15px;
+    max-width: 98%px;
 }
+
+.grid-directory{
+    padding-left: 46px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 93%;
+}
+
 
 #cards section{
     text-align: center;
@@ -404,18 +421,19 @@ header {
 
 #cards section >*{
     margin: 0.1rem;
+    
 }
 
+
 #cards img{
-    height: 75px;
+    height: 140px;
     max-width: 100%;
 }
 
 .list-directory section >*{
     margin: 0 1rem;
+    
 }
-
-
 
 .list-directory section img{
     display: none;
@@ -426,6 +444,17 @@ header {
     
 }
 
+.list-directory section{
+    display: grid;
+    grid-column: 1/2;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    padding: 0.25rem;
+    max-width: 95%;
+    margin-left: 2rem;
+    
+}
+/* directory */
 
 footer {
     font-size: 14px;
