@@ -2,66 +2,66 @@
     "companies": [
         {
             "name": "Grupo Nobis",
+            "description": "Construction Company",
             "address": "Av. Leopoldo Carrera Calvo 1245, Guayaquil",
             "phone": "+593 4 265 1000",
             "website": "https://www.gruponobis.com/",
             "image": "https://pbs.twimg.com/profile_images/1615809630638116878/fy4dxNiX_200x200.jpg",
-            "membership_level": "Gold",
-            "other_information": "Grupo Nobis is an Ecuadorian conglomerate with a wide range of companies in sectors such as construction, engineering, agriculture, and more."
+            "membership_level": "Gold"
         },
         {
             "name": "Holcim Ecuador",
+            "description": "Construction Company",
             "address": "Km 8.5 Vía a Daule, Guayaquil",
             "phone": "+593 4 370 7000",
             "website": "https://www.holcim.com.ec/",
             "image": "https://holcim.hiringroom.com/data/accounts/holcim/microsite/32302c7973230427350227632774a52e.png",
-            "membership_level": "Silver",
-            "other_information": "Holcim Ecuador is a leading company in the production and distribution of cement, concrete, and aggregates in the country."
+            "membership_level": "Silver"
         },
         {
             "name": "Inaesin",
+            "description": "Construction Company",
             "address": "Av. Francisco de Orellana, Edificio Blue Building, Guayaquil",
             "phone": "+593 4 220 3683",
             "website": "https://www.inaesin.com/",
             "image": "https://pbs.twimg.com/profile_images/1235975034734292994/vEK4Kjth_400x400.jpg",
-            "membership_level": "Bronze",
-            "other_information": "Inaesin is an Ecuadorian company specializing in engineering and inspection services for construction and infrastructure projects."
+            "membership_level": "Bronze"
         },
         {
             "name": "Tame EP",
+            "description": "Flights Company",
             "address": "José Joaquín de Olmedo International Airport, Guayaquil",
             "phone": "+593 4 380 2100",
             "website": "https://www.tame.com.ec/",
             "image": "https://i.ytimg.com/vi/HbPiiPqWAYY/maxresdefault.jpg",
-            "membership_level": "Gold",
-            "other_information": "Tame EP is the state-owned airline of Ecuador, operating domestic and international flights from its bases in Quito and Guayaquil."
+            "membership_level": "Gold"
         },
         {
             "name": "Cervecería Nacional",
+            "description": "Beer Company",
             "address": "Av. Juan Tanca Marengo, Guayaquil",
             "phone": "+593 4 373 8500",
             "website": "https://www.cnc.com.ec/",
             "image": "https://mccomunicaciones.com.ec/wp-content/uploads/2015/12/B-asset-4.jpeg",
-            "membership_level": "Silver",
-            "other_information": "Cervecería Nacional is the leading beer producer in Ecuador, with a wide variety of popular brands in the market."
+            "membership_level": "Silver"
         },
         {
             "name": "Automotores y Anexos",
+            "description": "Car Company",
             "address": "Av. Carlos Julio Arosemena, Guayaquil",
             "phone": "+593 4 210 9000",
             "website": "https://www.aya.ec/",
             "image": "https://a.storyblok.com/f/166586/595x177/8f0dc42747/logo-automotores-y-anexos-seminuevos.png",
-            "membership_level": "Bronze",
-            "other_information": "Automotores y Anexos is an Ecuadorian company dedicated to the import and distribution of vehicles and automotive parts."
+            "membership_level": "Bronze"
         },
         {
             "name": "Fybeca",
+            "description": "Medicine Products Company",
             "address": "Av. Juan Tanca Marengo, Guayaquil",
             "phone": "+593 4 372 5500",
             "website": "https://www.fybeca.com/",
             "image": "https://scalashopping.com/wp-content/uploads/2018/08/logo-Fybeca-01-1200x480.png",
-            "membership_level": "Gold",
-            "other_information": "Fybeca is the leading pharmacy chain in Ecuador, offering a wide range of pharmaceutical and health products."
+            "membership_level": "Gold"
         }
     ]
 }
