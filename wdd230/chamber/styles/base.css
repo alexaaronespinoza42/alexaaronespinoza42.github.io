@@ -368,6 +368,91 @@ header {
 
 /*THANKYOU*/
 
+/* directory */
+
+/*****************Directory***************/
+
+.menu {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+}
+
+.menu button {
+    padding: 1rem;
+    font-weight: 700;
+}
+
+#cards section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #eee;
+}
+
+#cards {
+    display: grid;
+    grid-gap: 15px;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#cards section {
+    text-align: center;
+}
+
+#cards img {
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #333;
+}
+
+#cards section>* {
+    margin: 0.1rem;
+}
+
+#cards h3 {
+    font-family: "Quicksand", cursive;
+}
+
+#cards img {
+    height: 75px;
+    max-width: 100%;
+}
+
+.list-directory {
+    display: none; /* Ocultar por defecto la vista de lista */
+}
+
+.list-directory section {
+    display: grid;
+    gap: 10px;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+.list-directory section>* {
+    margin: 0 1rem;
+}
+
+.list-directory section img {
+    display: none;
+}
+
+.list-directory section h3 {
+    font-size: 1rem;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+}
+
+.list-directory section:nth-child(even) {
+    background-color: rgb(197, 197, 197);
+}
+
+.grid-directory {
+    display: grid; /* Mostrar la vista de grid cuando se active */
+}
+
+
+/* directory */
 
 footer {
     font-size: 14px;

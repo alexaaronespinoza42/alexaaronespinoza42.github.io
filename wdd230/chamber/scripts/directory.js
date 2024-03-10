@@ -1,10 +1,14 @@
-const linksURL = "https://alexaaronespinoza42.github.io/wdd230/chamber/data/members.json"
+const linksURL = "https://alexaaronespinoza42.github.io/wdd230/chamber/data/members.json";
 const cards = document.querySelector("#cards");
 
 async function getCompaniesData(){
-    const response = await fetch (linksURL);
-    const data = await response.json();
-    displayCompanies(data.companies);
+    try {
+        const response = await fetch(linksURL);
+        const data = await response.json();
+        displayCompanies(data.companies);
+    } catch (error) {
+        console.error('Error fetching member data:', error);
+    }
 }
 
 const displayCompanies = (companies) =>{
@@ -18,19 +22,18 @@ const displayCompanies = (companies) =>{
         let website = document.createElement("a");
         let membership = document.createElement("h3");
 
-        logo.setAttribute("src", company.logo);
+        logo.setAttribute("src", company.image);
         logo.setAttribute("alt", `Logo of ${company.name}`);
-        //logo.setAttribute("loading", "lazy");
         logo.setAttribute("width", "auto");
         logo.setAttribute("height", "auto");
 
         cName.textContent = `${company.name}`;
-        cDescription.textContent = `${company.description}`;
+        cDescription.textContent = `${company.other_information}`;
         address.textContent = `${company.address}`;
         cPhone.textContent = `Phone: ${company.phone}`;
-        membership.textContent = `${company.membership} Membership`;
-        website.setAttribute("href", `${company.url}`);
-        website.textContent = company.url;
+        membership.textContent = `${company.membership_level} Membership`;
+        website.setAttribute("href", `${company.website}`);
+        website.textContent = company.website;
         website.setAttribute("target", "_blank");
 
         card.appendChild(logo);
