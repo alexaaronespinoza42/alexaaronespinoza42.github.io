@@ -171,23 +171,30 @@ iframe {
 
 /* hamburger */
 .hamburger {
-    display: none; /* Inicialmente oculto en todos los dispositivos */
+    display: none; 
     background: none;
     border: none;
     font-size: 44px;
     color: rgb(0, 0, 0);
     cursor: pointer;
-    position: absolute; /* Cambiar a posición absoluta */
-    top: 10px; /* Ajustar la posición vertical */
-    right: 10px; /* Colocar a la derecha */
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
 }
 
-/* Estilo para el menú de navegación que se muestra/desvanece */
+/*   */
+#weather-icon {
+    background: rgb(235, 235, 235);
+    border: solid 3px lightgray;
+    border-radius: 3px;
+}
+
+
 nav ul {
-    display: none; /* Ocultar por defecto */
+    display: none; 
 }
 
 nav ul.open {
-    display: flex; /* Mostrar cuando se hace clic en el botón de hamburguesa */
+    display: flex; 
     flex-direction: column;
 }
