@@ -8,9 +8,11 @@
         max-width: 90%; 
         margin: 0 auto; 
     }
+
+    /*
     #hero-box::after {
         content: "Small"; 
-    }
+    }*/
 
 	.card{
 		font-size: 15px;
@@ -88,6 +90,12 @@
         display: grid;
         grid-template-columns: 1fr;
         max-width: 85%;
+    }
+
+    .weathercp {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
     }
     
 }
