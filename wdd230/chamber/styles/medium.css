@@ -6,6 +6,11 @@
     .top-cards, .bottom-cards {
         flex-wrap: wrap; 
     }
+
+    nav ul {
+        display: none; 
+    }
+
 }   
 
 @media screen and (max-width: 768px) {
