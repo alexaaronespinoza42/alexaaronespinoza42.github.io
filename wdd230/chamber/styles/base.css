@@ -529,7 +529,7 @@ nav ul.open {
 
 .banner {
     display: flex;
-    font-size: 12px;
+    font-size: 20px;
     background-color: #9b0a0a;
     color: #f0f0f0;
     padding-left: 10px;
@@ -539,9 +539,10 @@ nav ul.open {
     z-index: 1000;
 }
 
-#closeBanner {
+.close-btn {
     background: none;
     border: none;
     cursor: pointer;
+    padding-top: 22px;
     font-size: 18px;
 }

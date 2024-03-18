@@ -1,14 +1,15 @@
+
+function isBannerDay() {
+    const today = new Date();
+    const day = today.getDay();
+    return day >= 1 && day <= 3;
+}
+function closeBanner() {
+    document.getElementById("banner").style.display = "none";
+}
+
 window.onload = function() {
-    var banner = document.getElementById('banner');
-    var closeBanner = document.getElementById('closeBanner');
-
-    var dayOfWeek = new Date().getDay();
-
-    if (dayOfWeek === 1 || dayOfWeek === 2 || dayOfWeek === 3) {
-        banner.style.display = 'block'; 
+    if (isBannerDay()) {
+        document.getElementById("banner").style.display = "flex";
     }
-
-    closeBanner.addEventListener('click', function() {
-        banner.style.display = 'none'; 
-    });
 };
