@@ -5,7 +5,7 @@
     }
 
 	#hero-box {
-        max-width: 90%; 
+        max-width: 100%; 
         margin: 0 auto; 
     }
 
@@ -43,6 +43,15 @@
         padding: 10px;
         margin: 20px;
         margin-bottom: -20px;
+        padding-left: 40px;
+    }
+
+    .sidebar-item{
+        width: 85%;
+    }
+    
+    .imagediscover{
+        width: 60%;
     }
 
     .image-gallery img {
@@ -51,6 +60,7 @@
 
     .container {
         grid-template-columns: 1fr; 
+
     }
     
     .sidebarjoin2 {
@@ -96,6 +106,11 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
+    }
+    
+    .close-btn {
+        font-size: 18px;
+        padding-right: 20px;
     }
     
 }

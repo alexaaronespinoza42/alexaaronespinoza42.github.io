@@ -542,6 +542,7 @@ nav ul.open {
     align-items: center;
     border: 2px dotted #000000;
     border-radius: 30px; 
+    width: 95%;
 }
 
 .banner {
