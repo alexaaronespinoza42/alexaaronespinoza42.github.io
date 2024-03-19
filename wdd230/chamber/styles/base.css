@@ -35,6 +35,20 @@ nav {
     margin-bottom: 0px;
 }
 
+.navigation a:hover {
+	background-color: rgb(49, 47, 47);
+	color: #eb6e08;
+	font-weight: 700;
+}
+
+.active::before{
+	content: ">";  
+}
+.active::after{
+    content: "<";
+}
+    
+
 nav ul {
     font-size: 20px;
     list-style: none;
