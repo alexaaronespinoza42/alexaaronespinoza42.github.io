@@ -9,11 +9,10 @@
     <meta property="og:image" content="https://www.tagsa.aero/h5img/info/gye-480.jpg">
     <meta property="og:url" content="https://alexaaronespinoza42.github.io/wdd230/chamber">
     <!--Open Graph meta tags-->
-    <title>Alexandre Espinoza - Guayaquil Chamber Site</title>
+    <title>Guayaquil Chamber of Commerce</title>
     <meta name="description" content="WDD 230 - Guayaquil Chamber Site.">
     <meta name="author" content="Alexandre Espinoza">
     <link rel="stylesheet" type="text/css" href="styles/base.css">
-    <link rel="stylesheet" type="text/css" href="stpyles/larger.css">
     <link rel="stylesheet" type="text/css" href="styles/medium.css">
     <link rel="stylesheet" type="text/css" href="styles/small.css">
     <link rel="icon" href="images/favicon.ico">
@@ -22,14 +21,14 @@
 </head>
 <body>
     <header>
-        <img src="images/gcityheader.webp" id="logo">
+        <img src="images/gcityheader.webp" id="logo" alt="City Header">
         <h1>Guayaquil Chamber of Commerce</h1>
         <div class ="social-icons">
             <a href="#"><img src="images/linkedin.webp" alt="LinkedIn"></a>
             <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
         </div>
         <button id="hamburger" class="hamburger">&#8801;</button>
-        <img src="images/moon.png" id="icon">
+        <img src="images/moon.png" id="icon" alt="moon icon">
     </header>
 
     <nav class="navigation">
@@ -50,11 +49,12 @@
         <span class="close-btn" onclick="closeBanner()">❌</span>
     </div>
     
+    <main>
     <div class="main">
         <div class="top-cards">
             <aside class="card large">
                 <h3>Main Event</h3>
-                <img src="images/guayaquil.jpeg" width="100%">
+                <img src="images/guayaquil.jpeg" style="width: 100%;" alt="Guayaquil Image">
                 <p><strong>Location:</strong> Via Daule - Samborondon</p>
                 <p><strong>Date and Time:</strong> February 5th, 2024, from 13:00 PM to 18:00 PM</p>
                 <p>This chamber commerce site plan will help free trade and promote economic 
@@ -72,7 +72,7 @@
             <aside class="card large">
                 <h3>Weather Information</h3>
                     <figure>
-                        <img id="weather-icon" src="" alt="Weather Icon">
+                        <img id="weather-icon" src="#" alt="Weather Icon">
                         <span id="current-temp2"></span>
                         <figcaption id="weather-description"></figcaption>
                     </figure>
@@ -134,34 +134,43 @@
                 <h3>Local Events</h3>
                 <img src="images/event.png" alt="Descripción de la imagen 2">
                 <ul>
-                    <li>Art Exposition - April 1st </li>
+                    <li>Art Exposition - April 1st</li>
                     <li>Gym Festival - July 25th</li>
                     <li>'Carnitas Asadas' Event Sep 4th</li>
-                    <p><strong>More information:</strong></p>
-                    <p>Ana Lucia</p>
-                    <p>+493891289 </p>
+                    <li>
+                        <p><strong>More information:</strong></p>
+                        <ul>
+                            <li>Ana Lucia</li>
+                            <li>+493891289</li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
             <aside class="card">
                 <h3>Community Service</h3>
-                <img src="images/serv.jpg">
+                <img src="images/serv.jpg" alt="service">
                 <ul>
                     <li>Cleaning the Streets of "La Joya"</li>
                     <li>Donating Items in Via Daule</li>
                     <li>Bingo to help the homeless in "Villa club"</li>
-                    <p><strong>More information:</strong></p>
-                    <p>Carlos Andrade</p>
-                    <p>+593834289 </p>
+                    <li>
+                        <p><strong>More information:</strong></p>
+                        <ul>
+                            <li>Carlos Andrade</li>
+                            <li>+593834289</li>
+                        </ul>
+                    </li>
                 </ul>
             </aside>
             <aside class="card">
                 <h3>Business Oportunities</h3>
-                <img src="images/busi.jpg" width="1800">
+                <img src="images/busi.jpg" width="1800" alt="business">
                 <p>Sometimes there are job fairs in ''Supermaxi'', in via daule, and many people go to those 
                     fairs to do business and find new job opportunities.</p>
             </aside>
         </div>
     </div>
+    </main>
 
     <footer>
         <div>

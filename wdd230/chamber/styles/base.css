@@ -233,7 +233,7 @@ header {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-column-gap: -2 0px; 
+    grid-column-gap: 0; 
 }
 
 .sidebarjoin {
@@ -415,7 +415,7 @@ header {
     align-items: center;
     padding-bottom: 40px;
     font-size: 15px;
-    max-width: 98%px;
+    max-width: 98%;
 }
 
 .grid-directory{
@@ -503,7 +503,7 @@ nav ul {
     display: flex; /* or display: block; */
     justify-content: center; /* Align items in the center horizontally */
     padding: 0; /* Remove default padding */
-    margin: 10; /* Remove default margin */
+    margin: 15px; /* Remove default margin */
 }
 
 nav ul.open {
