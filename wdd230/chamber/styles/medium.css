@@ -94,7 +94,7 @@
     }
 
     .grid-directory{
-        padding-left: 40px;
+        padding-left: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         max-width: 90%;
@@ -119,7 +119,7 @@
 @media screen and (max-width: 740px) {
     
     .grid-directory{
-        padding-left: 40px;
+        padding-left: 15px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         max-width: 90%;

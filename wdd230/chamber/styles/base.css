@@ -419,7 +419,7 @@ header {
 }
 
 .grid-directory{
-    padding-left: 46px;
+    padding-left: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 93%;

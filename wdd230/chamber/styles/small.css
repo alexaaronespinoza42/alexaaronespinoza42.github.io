@@ -90,7 +90,7 @@
     }
     
     .grid-directory{
-        padding-right: 40px;
+        padding-left: 5px;
         display: grid;
         grid-template-columns: 1fr; 
         max-width: 85%;
