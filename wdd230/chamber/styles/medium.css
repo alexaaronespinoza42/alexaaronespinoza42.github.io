@@ -20,10 +20,6 @@
 
     nav ul {
         font-size: 20px;
-        display: flex; /* or display: block; */
-        justify-content: center; /* Align items in the center horizontally */
-        padding: 0; /* Remove default padding */
-        margin: 15px; /* Remove default margin */
     }
 
 	#hero-box {
@@ -130,10 +126,6 @@
     }
     nav ul {
         font-size: 20px;
-        display: flex; /* or display: block; */
-        justify-content: center; /* Align items in the center horizontally */
-        padding: 0; /* Remove default padding */
-        margin: 15px; /* Remove default margin */
     }
     
     .grid-directory{
