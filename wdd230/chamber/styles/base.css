@@ -6,6 +6,7 @@
     --background-color: #ECD9D9;
     --text-color: black;
     --primary-colorhover: #9e3f08;
+    --primaryactivehover: #b45609;
 }
 
 .dark-theme{
@@ -14,6 +15,7 @@
     --secondary-color: #0d5052;
     --background-color: #4E3636;
     --primary-colorhover: #ecad88;
+    --primaryactivehover: #1d998f;
 }
 
 body {
@@ -37,7 +39,7 @@ nav {
 
 .navigation a:hover {
 	background-color: rgb(49, 47, 47);
-	color: #eb6e08;
+	color: var(--primaryactivehover);
 	font-weight: 700;
 }
 
