@@ -15,8 +15,15 @@
 
 @media screen and (max-width: 768px) {
     header {
-       
-		font-size: 10px;
+		font-size: 12px;
+    }
+
+    nav ul {
+        font-size: 20px;
+        display: flex; /* or display: block; */
+        justify-content: center; /* Align items in the center horizontally */
+        padding: 0; /* Remove default padding */
+        margin: 15px; /* Remove default margin */
     }
 
 	#hero-box {
@@ -117,6 +124,17 @@
 }
 
 @media screen and (max-width: 740px) {
+
+    header {
+		font-size: 12px;
+    }
+    nav ul {
+        font-size: 20px;
+        display: flex; /* or display: block; */
+        justify-content: center; /* Align items in the center horizontally */
+        padding: 0; /* Remove default padding */
+        margin: 15px; /* Remove default margin */
+    }
     
     .grid-directory{
         padding-left: 15px;

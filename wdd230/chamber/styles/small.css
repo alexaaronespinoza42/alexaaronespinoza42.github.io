@@ -1,7 +1,14 @@
 @media screen and (max-width: 540px) {
     header {
- 
-		font-size: 8px;
+		font-size: 10px;
+    }
+
+    nav ul {
+        font-size: 18px;
+        display: flex; /* or display: block; */
+        justify-content: center; /* Align items in the center horizontally */
+        padding: 0; /* Remove default padding */
+        margin: 15px; /* Remove default margin */
     }
 
 	#hero-box {
