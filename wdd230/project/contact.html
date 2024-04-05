@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="NOA">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content=" ">
+        <meta property="og:url" content=" ">
+        <meta name="description" content="WDD 230 - Final Project.">
+        <meta name="author" content="Alexandre Espinoza">
+        <title>Northwestern Oasis Academy - WDD 230 - Final Project</title>
+        <!--Css-->
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="styles/base.css">
+        <link rel="stylesheet" type="text/css" href=" ">
+        <link rel="icon" href=" ">
+        <!--Normalize--> 
+        <link rel="stylesheet" href=" ">
+        <link rel="stylesheet" href=" ">
+    </head>
+<body>
+    <header>
+        <img src="images/logohdr.webp" id="logoHeader" alt="academyHeader">
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="about.html"><strong>Rentals</strong></a></li>
+                <li><a href="reserv.html"><strong>Reservations</strong></a></li>
+                <li><a href="contact.html" title="Contact & Support" class="active"><strong>Contact & Support</strong></a></li>
+            </ul>
+        </nav>
+        <img src="images/moon.png" id="icon" alt="moon icon">
+    </header>
+    
+    <div id="asHero-box">
+        <div id="asHero-content">
+            <h1>Contact & Support ✍</h1>
+            <ul>
+                <li>Fill in the form and contact us!</li>
+            </ul>
+        </div>
+        <img id="asHero-image" src="images/contact.webp" alt="Contact & Support Image" loading="lazy">
+    </div>
+
+    <main>
+        <div id="EAc">
+            <div class="textColumnn">
+                <aside class="boxAs">
+                    <h2>Our Complete Contact Information!</h2>
+                    <p><strong>Phone:</strong> +52 999 999 9999</p>
+                    <p><strong>Email:</strong> scootcozumel@gmail.com</p>
+                    <p><strong>Days available:</strong> Everyday from 5 AM to 12 PM</p>
+                    <p>Here below you can find our locations too.</p>
+                    <div class="mapCo">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d201115.05080165112!2d-86.94505254858501!3d20.506578959595917!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cebd031b81%3A0x1d4d43952273f214!2sFERRY%20TO%20PLAYA%20DEL%20CARMEN!5e0!3m2!1sen!2sus!4v1712248466346!5m2!1sen!2sus" width="480" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+                    </div>
+                    <div class="mapCo">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4444.945871982503!2d-86.97423391979713!3d20.47590836003196!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1712248496216!5m2!1sen!2sus" width="480" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+                    </div>
+                </aside>
+            </div>
+            <div class="ContactForm">
+                <div class="coForm">
+                    <h1>Contact Form</h1>
+                    <p>Write here your info.</p>
+                    <form action="thankyou.html" method="get">
+                        <div>
+                            <label for="yourName">Name:</label>
+                            <input type="text" id="yourName" name="yourName" required>
+                        </div>
+                        <div>
+                            <label for="email">E-mail Adress:</label>
+                            <input type="email" id="email" name="email" required placeholder="example@example.com">
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <!--
+                        <div>
+                            <label for="membershipLevel">Help Situation:</label>
+                            <select id="membershipLevel" name="membershipLevel" required>
+                              <option value="Choose">...</option>
+                              <option value="Admission">Admission</option>
+                              <option value="College Contact">College Contact</option>
+                              <option value="Support & Help">Support & Help</option>
+                            </select>
+                        </div>
+                        -->
+                        <div>
+                            <label for="comment">Comment:</label>
+                            <textarea id="comment" name="comment"></textarea>
+                        </div>
+                        <input type="hidden" id="Submit" name="Submit">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <p>Visit us at our place in Mexico!</p>
+                <p>But if you wish you can access the following link: <a href="contact.html"><strong>Contact & Support</strong></a></p>
+            </div>
+            <div class="footer-section">
+                <h2>Quick Links</h2>
+                <p><a href="index.html"><strong>Home</strong></a></p>
+                <p><a href="about.html"><strong>About</strong></a></p>
+                <p><a href="reserv.html"><strong>Reservations</strong></a></p>
+                <p><a href="#" title="Home" class="active2"><strong>Support</strong></a></p>
+            </div>
+            <div class="footer-section">
+                <h2>Socials</h2>
+                <div class="social-item">
+                    <img src="images/fb.webp" alt="Facebook">
+                    <p><a href="https://www.facebook.com/"><strong>Facebook</strong></a></p>
+                </div>
+                <div class="social-item">
+                    <img src="images/inst.webp" alt="Instagram">
+                    <p><a href="https://www.instagram.com/"><strong>Instagram</strong></a></p>
+                </div>
+                <div class="social-item">
+                    <img src="images/yutu.webp" alt="Youtube">
+                    <p><a href="https://www.youtube.com/"><strong>Youtube</strong></a></p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h2>Location</h2>
+                <p>Caribbean Sea, 10 miles off Yucatan Peninsula, Quintana Roo, southeastern Mexico.</p>
+    </footer>
+    <!--
+    Scripts
+        <script src="scripts/banner.js"></script>
+        <script src="scripts/darktheme.js"></script>
+    -->
+    <script src="scripts/darktheme.js"></script>
+</body>
+</html>
