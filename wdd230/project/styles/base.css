@@ -4,18 +4,18 @@
 :root{
     --header-footer-color: rgb(54, 155, 196);
     --headerTXTfooter-color: rgb(0, 0, 0);
-    --pri-color: #ce9f54;;
+    --pri-color: #bdbe50;
     --sec-color: black; 
     --bground-color: white;
     --txt-color: white;
     --body-color: black;
     --box-color: rgba(0, 0, 0, 0.38);
     --imgbox-color: rgb(63, 0, 0);
-    --form-color: rgb(243, 232, 232);
-    --table-color-1: #ce9f54;
-    --table-color-2: #e7cb9c;
+    --form-color: rgb(240, 194, 126);
+    --table-color-1: #bdbe50;
+    --table-color-2: #cfcfa4;
     --border-bottom: black;
-}
+}   
 .dark-theme{
     --header-footer-color: rgb(81, 15, 134);
     --headerTXTfooter-color: rgb(255, 255, 255);
@@ -88,8 +88,7 @@ header {
 #reservHero-box{
     position: relative;
     text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
+
 }
 #hero-content, 
 #aboutHero-content, 
@@ -103,7 +102,7 @@ header {
     z-index: 2;
 }
 #hero-content h1{
-    font-size: 95px;
+    font-size: 70px;
     margin-top: 75px;
     margin-bottom: 10px;
     transition: transform 1s ease;
@@ -121,7 +120,7 @@ header {
     transition: transform 1s ease;
 }
 #asHero-content h1{
-    font-size: 64px;
+    font-size: 63px;
     margin-top: 100px;
     margin-bottom: 10px;
     transition: transform 1s ease;
@@ -421,10 +420,8 @@ tr {
 .reForm form input[type="text"],
 .reForm form input[type="email"],
 .reForm form input[type="tel"],
-/**/
 .reForm form input[type="country"],
 .reForm form input[type="date"],
-/**/
 .reForm form select,
 .reForm form textarea {
     width: 100%;
