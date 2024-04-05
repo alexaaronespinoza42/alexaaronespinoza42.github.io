@@ -1,4 +1,4 @@
-const url = 'https://weylin76.github.io/wdd230/final/data/rental.json'; 
+const url = 'https://api.github.com/repos/alexaaronespinoza42/alexaaronespinoza42.github.io/contents/wdd230/project/data/scooters.json';
 
 async function populateTable() {
   try {
@@ -6,7 +6,10 @@ async function populateTable() {
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
-    const rentals = await response.json();
+    const data = await response.json();
+    const content = atob(data.content); // Decodifica el contenido del archivo
+
+    const rentals = JSON.parse(content); // Parsea el JSON
 
     const tableBody = document.querySelector('#rentalTable tbody');
     tableBody.innerHTML = '';
@@ -23,19 +26,19 @@ async function populateTable() {
       row.appendChild(maxPersonsCell);
 
       const reservationHalfDayCell = document.createElement('td');
-      reservationHalfDayCell.textContent = `$${rental.Reservation['Half Day']}`;
+      reservationHalfDayCell.textContent = rental.Reservation['Half Day'];
       row.appendChild(reservationHalfDayCell);
 
       const reservationFullDayCell = document.createElement('td');
-      reservationFullDayCell.textContent = `$${rental.Reservation['Full Day']}`;
+      reservationFullDayCell.textContent = rental.Reservation['Full Day'];
       row.appendChild(reservationFullDayCell);
 
       const walkInHalfDayCell = document.createElement('td');
-      walkInHalfDayCell.textContent = `$${rental['Walk-In']['Half Day']}`;
+      walkInHalfDayCell.textContent = rental['Walk-In']['Half Day'];
       row.appendChild(walkInHalfDayCell);
 
       const walkInFullDayCell = document.createElement('td');
-      walkInFullDayCell.textContent = `$${rental['Walk-In']['Full Day']}`;
+      walkInFullDayCell.textContent = rental['Walk-In']['Full Day'];
       row.appendChild(walkInFullDayCell);
 
       tableBody.appendChild(row);

@@ -63,11 +63,11 @@
         "Rental Type": "Jeep Wrangler - 2 door",
         "Max. Persons": 4,
         "Reservation": {
-            "Half Day (3 hrs)": "$60",
+            "Half Day": "$60",
             "Full Day": "$85"
         },
         "Walk-In": {
-            "Half Day (3 hrs)": "$70",
+            "Half Day": "$70",
             "Full Day": "$90"
         }
     }
