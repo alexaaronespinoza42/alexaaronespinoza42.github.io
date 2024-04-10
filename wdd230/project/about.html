@@ -3,17 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="Noah's Scooters">
+        <meta property="og:title" content="Noah's Scoots Rentals">
         <meta property="og:type" content="website">
         <meta property="og:image" content=" ">
         <meta property="og:url" content=" ">
-        <meta name="description" content="WDD 230 - Final Project.">
+        <meta name="description" content="Cozumel, Mexico Scooters Rental - WDD 230 - Final Project.">
         <meta name="author" content="Alexandre Espinoza">
-        <title>Noah's Scooters - WDD 230 - Final Project</title>
+        <title>Noah's Scoots Rentals - WDD 230 - Final Project</title>
         <!--Css-->
         <link rel="icon" href="images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="styles/base.css">
-        <link rel="stylesheet" type="text/css" href=" ">
+        <link rel="stylesheet" type="text/css" href="styles/larger.css">
+        <link rel="stylesheet" type="text/css" href="styles/medium.css">
+        <link rel="stylesheet" type="text/css" href="styles/small.css">
         <link rel="icon" href=" ">
         <!--Normalize--> 
         <link rel="stylesheet" href=" ">
@@ -21,17 +23,20 @@
     </head>
 <body>
     <header>
-        <img src="images/logohdr.webp" id="logoHeader" alt="academyHeader">
-        <nav class="navigation">
-            <ul>
-                <li><a href="index.html"><strong>Home</strong></a></li>
-                <li><a href="about.html" title="About" class="active"><strong>About</strong></a></li>
-                <li><a href="reserv.html"><strong>Reservations</strong></a></li>
-                <li><a href="contact.html"><strong>Contact & Support</strong></a></li>
-            </ul>
-        </nav>
+        <h1>Noah's Scoots Rentals</h1>
+        <img src="images/logohdr.webp" id="logoHeader" alt="academyHeader">  
         <img src="images/moon.png" id="icon" alt="moon icon">
+        <button id="hamburger" class="hamburger">&#8801;</button>
     </header>
+    
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html"><strong>Home</strong></a></li>
+            <li><a href="#" title="Rentals" class="active"><strong>Rentals</strong></a></li>
+            <li><a href="reserv.html"><strong>Reservations</strong></a></li>
+            <li><a href="contact.html"><strong>Contact & Support</strong></a></li>
+        </ul>
+    </nav>
 
     <div id="aboutHero-box">
         <div id="aboutHero-content">
@@ -247,6 +252,7 @@
         <script src="scripts/banner.js"></script>
     -->
     <script src="scripts/rentalScooters.js"></script>
+    <script src="scripts/hamburger.js"></script>
     <script src="scripts/darktheme.js"></script>
 </body>
 </html>

@@ -1,0 +1,109 @@
+@media only screen and (max-width: 500px) {
+    /* NAV - HAMBURGER AND ICON */
+    .hamburger {
+        display: block;
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+    }
+    nav ul {
+        display: none;
+        font-size: 17px;
+    }
+    /*HEADER*/
+    header h1{
+        font-size: 30px;
+    }
+    #asHero-image,
+    #reservHero-image,
+    #aboutHero-image,
+    #hero-image {
+        width: 100%;
+        height: auto; 
+    }
+    #asHero-content h1,
+    #reservHero-content h1,
+    #aboutHero-content h1,
+    #hero-content h1 {
+        font-size: 20px; 
+        margin-top: 40px; 
+    }
+    #asHero-content ul,
+    #reservHero-content ul,
+    #aboutHero-content ul,
+    #hero-content ul  {
+        margin-top: 10px; 
+    }
+    #asHero-content li,
+    #reservHero-content li,
+    #aboutHero-content li,
+    #hero-content li   {
+        margin-bottom: 70px; 
+        font-size: 10px; 
+    }
+    /*BOX*/
+    .box, 
+    .boxTy{
+        padding: 10px;
+    }
+    .box ul li{
+        font-size: 12px;
+    }
+    /*BODY ABOUT*/
+    .grid-item p{
+        font-size: 11px;
+    }
+    /*ABOUT TABLE*/
+    .tbleCss {
+        margin-top: 25px;
+    }
+    table {
+        width: 100%;
+        font-size: 10px;
+    }
+    /*BODY*/
+    .ContactForm {
+        width: 70%;
+    }
+    .ReserveForm,
+    .textColumnn {
+        width: 70%;
+    }
+    .reservImg {
+        margin-bottom: 30px;
+    }
+    .reservImg img {
+        max-width: 70%; 
+    }
+    .coForm h1,
+    .boxAs h2,
+    .reForm h1,
+    .box h2 {
+        font-size: 15px;
+    }
+    .coForm form div,
+    .coForm p,
+    .boxAs p,
+    .reForm form div,
+    .reForm p,
+    .box p {
+        font-size: 11px;
+    }
+    .coForm form textarea,
+    .reForm form textarea {
+        height: 60px;
+    }
+    /*BODY TY*/
+    #EAty {
+        margin: 20px auto;
+        padding: 10px;
+        width: 90%;
+    }
+    /*FOOTER*/
+    .footer-section h2 {
+        font-size: 15px;
+    }
+    .footer-section p {
+        font-size: 10px;
+    }
+} 

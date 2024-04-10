@@ -1,0 +1,133 @@
+@media only screen and (max-width: 773px) {
+    /*HERO*/
+    #asHero-box,
+    #reservHero-box,
+    #aboutHero-box,
+    #hero-box {
+        position: relative;
+        text-align: center;
+    }
+    #asHero-image,
+    #reservHero-image,
+    #aboutHero-image,
+    #hero-image {
+        width: 100%;
+        height: auto; 
+    }
+    #asHero-content h1,
+    #reservHero-content h1,
+    #aboutHero-content h1 {
+        font-size: 30px; 
+        margin-top: 40px; 
+    }
+    #hero-content h1 {
+        font-size: 26px; 
+        margin-top: 40px; 
+    }
+    #asHero-content ul,
+    #reservHero-content ul,
+    #aboutHero-content ul,
+    #hero-content ul {
+        margin-top: 10px; 
+    }
+    #asHero-content li,
+    #reservHero-content li,
+    #aboutHero-content li {
+        margin-bottom: 70px; 
+        font-size: 15px; 
+    }
+    #hero-content li {
+        margin-bottom: 70px; 
+        font-size: 12px; 
+    }
+    /*BODY INDEX*/
+
+    /*BODY ABOUT*/
+    .grid-container-top,
+    .grid-container-bottom {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .grid-item p{
+        font-size: 12px;
+    }
+    /*BODY TABLE*/
+    .tbleCss {
+        margin-top: 15px;
+    }
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+    /*BODY*/
+    #EAc,#EA {
+        display: flex;
+        flex-direction: column;
+    }
+    .ContactForm,
+    .ReserveForm  {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .textColumnn {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .reservImg {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .reservImg img {
+        display: block;
+        max-width: 75%; 
+        margin: 0 auto;
+        transition: transform 1s ease;
+        box-shadow: 0 0 10px var(--imgbox-color);
+    }
+    .reservImg img:hover {
+        transform: scale(1.1);
+    }
+    .mapCo {
+        width: 100%; 
+        max-width: 100%; 
+        margin: 0 auto; 
+    }
+    .mapCo iframe {
+        width: 100%; 
+        height: 200px; 
+        border: 0; 
+        display: block; 
+    }
+    .boxAs{
+        padding: 70px;
+        max-width: 570px; 
+    }
+    /*BODY TY*/
+    #EAty {
+        margin: 20px auto;
+        width: 50%;
+    }
+    /*FOOTER MEDIUM*/
+    .footer-container {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 888px) {
+    /* NAV - HAMBURGER AND ICON */
+    #hamburger {
+        margin: 5px
+    }
+    .hamburger {
+        display: block;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+    nav ul {
+        display: none;
+        font-size: 25px;
+    }
+}

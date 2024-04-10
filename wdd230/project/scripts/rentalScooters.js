@@ -7,9 +7,9 @@ async function populateTable() {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     const data = await response.json();
-    const content = atob(data.content); // Decodifica el contenido del archivo
+    const content = atob(data.content);
 
-    const rentals = JSON.parse(content); // Parsea el JSON
+    const rentals = JSON.parse(content); 
 
     const tableBody = document.querySelector('#rentalTable tbody');
     tableBody.innerHTML = '';

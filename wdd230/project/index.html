@@ -3,17 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="Noah's Scooters">
+        <meta property="og:title" content="Noah's Scoots Rentals">
         <meta property="og:type" content="website">
-        <meta property="og:image" content=" ">
-        <meta property="og:url" content=" ">
-        <meta name="description" content="WDD 230 - Final Project.">
+        <meta property="og:image" content="https://alexaaronespinoza42.github.io/wdd230/project/images/asd.webp">
+        <meta property="og:url" content="https://alexaaronespinoza42.github.io/wdd230/project/index.html">
+        <meta name="description" content="Noah's Scoots Rental here in Cozumel Mexico! - WDD 230 - Final Project.">
         <meta name="author" content="Alexandre Espinoza">
-        <title>Noah's Scooters - WDD 230 - Final Project</title>
+        <title>Noah's Scoots Rentals - WDD 230 - Final Project</title>
         <!--Css-->
         <link rel="icon" href="images/favicon.ico">
         <link rel="stylesheet" type="text/css" href="styles/base.css">
-        <link rel="stylesheet" type="text/css" href=" ">
+        <link rel="stylesheet" type="text/css" href="styles/larger.css">
+        <link rel="stylesheet" type="text/css" href="styles/medium.css">
+        <link rel="stylesheet" type="text/css" href="styles/small.css">
         <link rel="icon" href=" ">
         <!--Normalize--> 
         <link rel="stylesheet" href=" ">
@@ -21,90 +23,66 @@
     </head>
 <body>
     <header>
-        <img src="images/logohdr.webp" id="logoHeader" alt="academyHeader">
-        <nav class="navigation">
-            <ul>
-                <li><a href="index.html" title="Home" class="active"><strong>Home</strong></a></li>
-                <li><a href="about.html"><strong>Rentals</strong></a></li>
-                <li><a href="reserv.html"><strong>Reservations</strong></a></li>
-                <li><a href="contact.html"><strong>Contact & Support</strong></a></li>
-            </ul>
-        </nav>
+        <h1>Noah's Scoots Rentals</h1>
+        <img src="images/logohdr.webp" id="logoHeader" alt="academyHeader">  
         <img src="images/moon.png" id="icon" alt="moon icon">
+        <button id="hamburger" class="hamburger">&#8801;</button>
     </header>
     
+    <nav class="navigation">
+        <ul>
+            <li><a href="#" title="Home" class="active"><strong>Home</strong></a></li>
+            <li><a href="about.html"><strong>Rentals</strong></a></li>
+            <li><a href="reserv.html"><strong>Reservations</strong></a></li>
+            <li><a href="contact.html"><strong>Contact & Support</strong></a></li>
+        </ul>
+    </nav>
+
     <div id="hero-box">
         <div id="hero-content">
             <h1>Welcome to Noah's Scooters! 📮</h1>
             <ul>
-                <li>Take a look at our scooters and our new jeeps too!</li>
+                <li>
+                <a href="reserv.html"><strong>Click to Make a Reservation!</strong></a>
+            </li>
+                
             </ul>
         </div>
         <img id="hero-image" src="images/asd.webp" alt="Home Image" loading="lazy">
     </div>
 
-    <main>
-        <div id="EA">
-            <div class="textColumnn">
-                <aside class="box">
-                    <h2>Explore Academic Excellence at NOA</h2>
-                    <p>
-                        At Northwestern Oasis Academy, we take pride in providing an exceptional educational experience 
-                        that propels our students towards success. With a wide range of high-quality academic programs, 
-                        from engineering to liberal arts, our students have the opportunity to explore their passions and 
-                        push their boundaries.Our state-of-the-art campus boasts modern facilities, including cutting-edge laboratories, 
-                        extensive libraries, equipped art studios, and top-notch sports facilities. Additionally, 
-                        our students have access to a variety of extracurricular resources, such as student clubs, 
-                        cultural events, and community service opportunities.
-                    </p>
-                    <p>
-                        In our Academy, we pride ourselves on our academic and extracurricular achievements. 
-                        Our faculty members are leaders in their fields and are committed to excellence in teaching and research. 
-                        Our students have been recognized nationally and internationally for their academic achievements, innovative research, 
-                        and contributions to the community.
-                    </p>
-                </aside>
-            </div>
-            <div class="imageColumn">
-                <aside class="imagesBox">
-                    <img src="images/buil.webp" alt="CollegeImage1" loading="lazy">
-                </aside>
-            </div>
+    <main class="container">
+        <div class="boxInd top">
+            <h2>Weather</h2>
+            <p>At Northwestern Oasis Academy, we take pride in providing an exceptional educational experience 
+            that propels our students towards success. With a wide range of high-quality academic programs, 
+            from engineering to liberal arts, our students have the opportunity to explore their passions and 
+            push their boundaries. Our state-of-the-art campus boasts modern facilities, including cutting-edge laboratories, 
+            extensive libraries, equipped art studios, and top-notch sports facilities. Additionally, 
+            our students have access to a variety of extracurricular resources, such as student clubs, 
+            cultural events, and community service opportunities.</p>
         </div>
-
-        <div id="EA">
-            <div class="textColumnn">
-                <aside class="box">
-                    <h2>Volunteer and Community Service Programs at NOA</h2>
-                    <p>
-                        At Northwestern Oasis Academy, we strongly believe in the importance of positively 
-                        contributing to the community and fostering a sense of social responsibility among 
-                        our students. Our volunteer and community service programs provide students with the 
-                        opportunity to make a real difference in society while gaining invaluable experience 
-                        outside the classroom.
-                    </p>
-                    <p>
-                        Our students have access to a wide variety of volunteer opportunities in collaboration
-                         with local, national, and international organizations. From mentoring projects in local
-                          schools to park clean-up programs and housing construction projects, there are options 
-                          for every interest and skill level.
-                    </p>
-                    <p>
-                        Additionally, at Northwestern Oasis Academy, we encourage active participation of our 
-                        students in university-organized community service initiatives. These projects are designed
-                         to address significant social issues and provide sustainable long-term solutions. 
-                         Some examples include childhood literacy programs, health and wellness awareness campaigns
-                         , and community development projects in underserved areas.
-                    </p>
-                </aside>
-            </div>
-            <div class="imageColumn">
-                <aside class="imagesBox">
-                    <img src="images/vol.webp" alt="CollegeImage2" loading="lazy">
-                </aside>
-            </div>
+        <div class="boxInd bottom">
+            <h2>About us!</h2>
+            <p>At Noah's Scooters Rentals, we offer exceptional service in Cozumel, Mexico. Our scooters 
+            are ideal for exploring the island, with liability insurance included and the option to
+            purchase damage insurance. We accept a variety of payment methods, including Google Pay,
+            Apple Pay, cash, and credit cards. Come and discover the freedom of exploring Cozumel on our
+            scooters!</p>
+        </div>
+        <div class="boxInd bottom">
+            <h2>Social Media and More!</h2>
+            <p>Find out more about our adventures in Cozumel by following us on our social networks. 
+            Join our community on 
+            <a href="https://www.facebook.com/"><strong>Facebook</strong></a>,
+            <a href="https://www.instagram.com/"><strong>Instagram</strong></a> and
+            <a href="https://www.youtube.com/"><strong>Youtube</strong></a> 
+            for exclusive content, special promotions, and real-time updates. Connect with us and be part of our exciting experience
+            at Noah's Scoots Rentals.</p>
         </div>
     </main>
+    
+    
 
     <footer>
         <div class="footer-container">
@@ -138,12 +116,14 @@
             
             <div class="footer-section">
                 <h2>Location</h2>
-                <p>Caribbean Sea, 10 miles off Yucatan Peninsula, Quintana Roo, southeastern Mexico.</p>
+                <p>Caribbean Sea, 10 miles off Yucatan Peninsula, Quintana Roo, southeastern Mexico.
+                    <a href="https://maps.app.goo.gl/3K6SxU7qUxzvxBtDA"><strong>Location Here!</strong></a></p>
     </footer>
     <!--
     Scripts
         <script src="scripts/banner.js"></script>
     -->
+    <script src="scripts/hamburger.js"></script>
     <script src="scripts/darktheme.js"></script>
 </body>
 </html>
