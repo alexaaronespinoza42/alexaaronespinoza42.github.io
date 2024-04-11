@@ -56,7 +56,7 @@
                             <input type="text" id="yourName" name="yourName" required>
                         </div>
                         <div>
-                            <label for="email">E-mail Adress:</label>
+                            <label for="email">E-mail Address:</label>
                             <input type="email" id="email" name="email" required placeholder="example@example.com">
                         </div>
                         <div>
@@ -65,16 +65,17 @@
                         </div>
                         <div>
                             <label for="country">Home State or Country:</label>
-                            <input type="country" id="country" name="country" required>
+                            <input type="text" id="country" name="country" required>
                         </div>
                         <div>
                             <label for="date">Date:</label>
                             <input type="date" id="date" name="date" required>
                         </div>
-            
+                    
                         <div>
                             <label for="period">Period:</label>
                             <select id="period" name="period" required>
+                                <option value="">Select Period</option>
                                 <option value="full">Full day</option>
                                 <option value="half">Half day</option>
                             </select>
@@ -82,21 +83,22 @@
                         <div>
                             <label for="rentalType">Rental Type:</label>
                             <select id="rentalType" name="rentalType" required>
-                                <option value="Honda">Honda Metro Scooter</option>
-                                <option value="Honda">Honda Dio Scooter</option>
-                                <option value="Honda">Honda PCX150 Scooter</option>
-                                <option value="Honda">Honda Pioneer ATV</option>
-                                <option value="Jeep">Jeep Wrangler - 4 door w a/c</option>
-                                <option value="Jeep">Jeep Wrangler - 2 door</option>
+                                <option value="">Select Rental Type</option>
+                                <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                                <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                                <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                                <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                                <option value="Jeep Wrangler - 4 door w a/c">Jeep Wrangler - 4 door w a/c</option>
+                                <option value="Jeep Wrangler - 2 door">Jeep Wrangler - 2 door</option>
                             </select>
                         </div>
                         <div>
-                            <label for="saComment">Special Accommodations & Comments</label>
+                            <label for="saComment">Special Accommodations & Comments:</label>
                             <textarea id="saComment" name="saComment"></textarea>
                         </div>
                         <input type="hidden" id="Submit" name="Submit">
                         <button type="submit">Submit</button>
-                    </form>
+                    </form>                    
                 </div>
             </div>
             <div class="textColumnn">
