@@ -16,10 +16,6 @@
         <link rel="stylesheet" type="text/css" href="styles/larger.css">
         <link rel="stylesheet" type="text/css" href="styles/medium.css">
         <link rel="stylesheet" type="text/css" href="styles/small.css">
-        <link rel="icon" href=" ">
-        <!--Normalize--> 
-        <link rel="stylesheet" href=" ">
-        <link rel="stylesheet" href=" ">
     </head>
 <body>
     <header>
@@ -54,21 +50,37 @@
     <main class="container">
         <div class="boxInd top">
             <h2>Weather</h2>
-            <p>At Northwestern Oasis Academy, we take pride in providing an exceptional educational experience 
-            that propels our students towards success. With a wide range of high-quality academic programs, 
-            from engineering to liberal arts, our students have the opportunity to explore their passions and 
-            push their boundaries. Our state-of-the-art campus boasts modern facilities, including cutting-edge laboratories, 
-            extensive libraries, equipped art studios, and top-notch sports facilities. Additionally, 
-            our students have access to a variety of extracurricular resources, such as student clubs, 
-            cultural events, and community service opportunities.</p>
+            <div id="weather-container">
+                <p>Here is the current temperature in Cozumel, Mexico!</p>
+                <div id="current-weather">
+                    <div>Temperature: <span id="temp"></span></div>
+                    <div>Humidity: <span id="hum"></span></div>
+                    <div><span id="desc"></span></div>
+                    <div id="weather-icon"></div>
+                </div>
+                <p>And here is the tomorrow's temperature in Cozumel, Mexico!</p>
+                <div id="future-weather">
+                    <div>Tomorrow's Temperature (3pm): <span id="temp3pm"></span></div>
+                    <div id="tomorrow-conditions"></div>
+            </div>
+            </div>
         </div>
+
+        <dialog id="myModal" class="modal">
+            <p><strong>Max temperature in Cozumel today!</strong> <span id="maxTemp">30°C</span></p>
+            <button id="closeModal">Close</button>
+        </dialog>
+
         <div class="boxInd bottom">
             <h2>About us!</h2>
             <p>At Noah's Scooters Rentals, we offer exceptional service in Cozumel, Mexico. Our scooters 
             are ideal for exploring the island, with liability insurance included and the option to
-            purchase damage insurance. We accept a variety of payment methods, including Google Pay,
-            Apple Pay, cash, and credit cards. Come and discover the freedom of exploring Cozumel on our
-            scooters!</p>
+            purchase damage insurance. We accept a variety of payment methods, including Google/Apple Pay,
+            cash, and credit cards.
+        </p>
+            <div class="boxImages">
+                <img id="VirtualAndClassrom" src="images/jeepscooter.webp" alt="About us Index image" loading="lazy">
+            </div>
         </div>
         <div class="boxInd bottom">
             <h2>Social Media and More!</h2>
@@ -79,6 +91,9 @@
             <a href="https://www.youtube.com/"><strong>Youtube</strong></a> 
             for exclusive content, special promotions, and real-time updates. Connect with us and be part of our exciting experience
             at Noah's Scoots Rentals.</p>
+            <div class="boxImages">
+                <img id="VirtualAndClassrom" src="images/socialmore.webp" alt="Social media Image" loading="lazy">
+            </div>
         </div>
     </main>
     
@@ -123,6 +138,7 @@
     Scripts
         <script src="scripts/banner.js"></script>
     -->
+    <script src="scripts/weather.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darktheme.js"></script>
 </body>

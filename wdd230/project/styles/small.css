@@ -1,5 +1,5 @@
 @media only screen and (max-width: 500px) {
-    /* NAV - HAMBURGER AND ICON */
+    /* NAV - HAMBURGER - ICON AND MODAL */
     .hamburger {
         display: block;
         width: 30px;
@@ -9,6 +9,10 @@
     nav ul {
         display: none;
         font-size: 17px;
+    }
+    #myModal {
+        max-width: 50%;
+        font-size: 14px;
     }
     /*HEADER*/
     header h1{
@@ -40,6 +44,29 @@
     #hero-content li   {
         margin-bottom: 70px; 
         font-size: 10px; 
+    }
+    /*BODY INDEX*/
+    .container {
+        max-width: 70%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .boxInd h2{
+        font-size: 16px;
+    }
+    #weather-container, 
+    #forecast-container,
+    #tomorrow-conditions div,
+    #weather-container p,
+    .boxInd p  {
+        font-size: 12px;
+    }
+    #tomorrow-conditions img {
+        display: block;
+        margin: auto;
+    }
+    .boxImages img {
+        max-width: 100%;
     }
     /*BOX*/
     .box, 

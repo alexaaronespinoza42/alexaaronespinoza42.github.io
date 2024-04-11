@@ -41,7 +41,29 @@
         font-size: 12px; 
     }
     /*BODY INDEX*/
-
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        max-width: 50%;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .boxInd h2{
+        font-size: 16px;
+    }
+    #weather-container, 
+    #forecast-container,
+    #tomorrow-conditions div,
+    #weather-container p,
+    .boxInd p  {
+        font-size: 12px;
+    }
+    #tomorrow-conditions img {
+        display: block;
+        margin: auto;
+    }
+    .boxImages img {
+        width: 130px;
+    }
     /*BODY ABOUT*/
     .grid-container-top,
     .grid-container-bottom {

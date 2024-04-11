@@ -118,6 +118,58 @@ nav a:hover {
 .hamburger:hover {
     transform: scale(1.1); 
 }
+#myModal {
+    background-color: var(--pri-color);
+}
+/*INDEX*/
+.container {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+.boxInd {
+    box-shadow: 0 0 20px var(--box-color);
+    margin: 0 auto;
+    background-color: var(--pri-color);
+    padding: 30px;
+}
+#weather-container, 
+#forecast-container,
+#tomorrow-conditions div  {
+    text-align: center;
+    padding: 0px;
+    font-size: 14px;
+}
+#weather-container p{
+    text-align: left;
+    margin-bottom: 10px;
+}
+#tomorrow-conditions img {
+    display: block;
+    margin: auto;
+}
+.boxInd h2 {
+    font-size: 25.8px;
+    padding-left: 18px;
+    border-bottom: 2px double var(--sec-color);
+}
+.boxInd p {
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.boxImages img {
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 0 0 10px var(--imgbox-color);
+    width: 200px;
+    transition: transform 1s ease;
+}
+.boxImages img:hover {
+    transform: scale(1.1); 
+}
+
 /* hero */
 #hero-box, 
 #aboutHero-box,
@@ -505,31 +557,6 @@ footer {
     width: 20px;
     height: 20px;
     margin-right: 12px;
-}
-/*INDEX*/
-.container {
-    padding: 40px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-}
-
-.boxInd {
-    box-shadow: 0 0 20px var(--box-color);
-    margin: 0 auto;
-    background-color: var(--pri-color);
-    padding: 30px;
-}
-
-.boxInd h2 {
-    font-size: 25.8px;
-    padding-left: 18px;
-    border-bottom: 2px double var(--sec-color);
-}
-
-.boxInd p {
-    font-size: 16px;
-    text-align: left;
 }
 
 

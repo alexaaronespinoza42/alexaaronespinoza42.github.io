@@ -39,7 +39,32 @@
         font-size: 18px; 
     }
     /*BODY INDEX*/
-
+    .container {
+        padding: 20px;
+        grid-gap: 30px;
+    }
+    .boxInd {
+        margin: 0 auto;
+        padding: 20px;
+    }
+    #weather-container, 
+    #forecast-container,
+    #tomorrow-conditions div  {
+        text-align: center;
+        padding: 0px;
+        font-size: 14px;
+    }
+    #weather-container p{
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    #tomorrow-conditions img {
+        display: block;
+        margin: auto;
+    }
+    .boxImages img {
+        width: 150px;
+    }
     /*BODY ABOUT*/
     .grid-container-top,
     .grid-container-bottom {
