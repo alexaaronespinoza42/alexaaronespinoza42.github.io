@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
             temp3pm.textContent = `${forecast.main.temp.toFixed(0)}°F`;
             
             const tomorrowConditions = document.querySelector('#tomorrow-conditions');
-            tomorrowConditions.innerHTML = 'Tomorrow\'s conditions: '; 
+            tomorrowConditions.innerHTML = 'Tomorrow\'s Conditions: '; 
       
             forecast.weather.forEach(condition => {
                 const conditionContainer = document.createElement('div');
