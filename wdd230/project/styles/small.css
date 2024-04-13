@@ -14,9 +14,14 @@
         max-width: 50%;
         font-size: 14px;
     }
+    #hero-content ul li a {
+        max-width: 50%;
+        padding: 5px;
+        font-size: 7px;
+    }
     /*HEADER*/
     header h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     #asHero-image,
     #reservHero-image,
@@ -27,10 +32,13 @@
     }
     #asHero-content h1,
     #reservHero-content h1,
-    #aboutHero-content h1,
-    #hero-content h1 {
-        font-size: 20px; 
+    #aboutHero-content h1{
+        font-size: 15px; 
         margin-top: 40px; 
+    }
+    #hero-content h1 {
+        font-size: 13px; 
+        margin-top: 60px; 
     }
     #asHero-content ul,
     #reservHero-content ul,
@@ -43,7 +51,7 @@
     #aboutHero-content li,
     #hero-content li   {
         margin-bottom: 70px; 
-        font-size: 10px; 
+        font-size: 7px; 
     }
     /*BODY INDEX*/
     .container {

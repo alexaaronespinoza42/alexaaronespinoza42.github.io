@@ -1,3 +1,26 @@
+@media only screen and (max-width: 1300px){
+    .grid-container-top,
+    .grid-container-bottom {
+        gap: 20px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .grid-item p{
+        font-size: 14px;
+    }
+    .gridImages img {
+        margin: 10px;
+        width: 120px;
+    }
+    /*ABOUT TABLE*/
+    .tbleCss {
+        margin: 40px 60px auto;
+    }
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+}
 @media only screen and (max-width: 1115px) {
     /*HEADER NAV*/
     header h1{
@@ -66,19 +89,7 @@
         width: 150px;
     }
     /*BODY ABOUT*/
-    .grid-container-top,
-    .grid-container-bottom {
-        gap: 20px;
-        margin-left: 70px;
-        margin-right: 70px;
-    }
-    .grid-item p{
-        font-size: 14px;
-    }
-    .gridImages img {
-        margin: 10px;
-        width: 120px;
-    }
+    /*1300px*/
     /*ABOUT TABLE*/
     .tbleCss {
         margin: 40px 60px auto;
