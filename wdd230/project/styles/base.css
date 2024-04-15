@@ -119,7 +119,14 @@ nav a:hover {
 }
 #myModal {
     background-color: var(--pri-color);
-}
+    padding: 0;
+  }
+  #myModalContent {
+    padding: 20px;
+  }
+  #myModalContent > p {
+    margin-top: 0;
+  }
 /*INDEX*/
 .container {
     padding: 40px;
